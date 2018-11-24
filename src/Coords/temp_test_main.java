@@ -3,6 +3,13 @@ package Coords;
 import Geom.Point3D;
 import java.util.Arrays;
 
+/**
+ * david ahi timhak et ze ahrei she-tesaiem, lo mahakti ki hashavti ulai she ze
+ * iazor leha le helek me habdikot, begadol akol amur laavod
+ * 
+ * @author Eminem
+ *
+ */
 public class temp_test_main {
 
 	public static void main(String[] args) {
