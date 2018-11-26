@@ -1,5 +1,6 @@
 package Coords;
 
+import Geom.GpsCoord;
 import Geom.Point3D;
 
 /**
@@ -18,20 +19,20 @@ abstract public class MyCoords {
 	 * after the sum
 	 */
 
-	public static Point3D add(Point3D gps, Point3D local_vector_in_meter) {
+	public static Point3D add(GpsCoord gps, Point3D local_vector_in_meter) {
 		// calculating the lonNorm as we'll use it two times - to convert from radian to
 		// meters and from meters back to radian
-		double lonNorm = Math.cos(Point3D.d2r(gps.x()));
+		double lonNorm = Math.cos(Point3D.d2r(gps.getPoint().x()));
 		// converting the decimal degrees to radian
-		double radianLat = Point3D.d2r(gps.x());
-		double radianLon = Point3D.d2r(gps.y());
+		double radianLat = Point3D.d2r(gps.getPoint().x());
+		double radianLon = Point3D.d2r(gps.getPoint().y());
 		// converting the radian to meter
 		double meterLat = r2mLat(radianLat);
 		double meterLon = r2mLon(radianLon, lonNorm);
 		// adding the meters from the vector to the one we got
 		double gps1MeterLat = meterLat + local_vector_in_meter.x();
 		double gps1MeterLon = meterLon + local_vector_in_meter.y();
-		double gps1MeterAlt = gps.z() + local_vector_in_meter.z();
+		double gps1MeterAlt = gps.getPoint().z() + local_vector_in_meter.z();
 		// converting the meter back to radian
 		double radianGps1Lat = m2rLat(gps1MeterLat);
 		double radianGps1Lon = m2rLon(gps1MeterLon, lonNorm);
@@ -50,7 +51,7 @@ abstract public class MyCoords {
 	 * a thing
 	 */
 
-	public static double distance3d(Point3D gps0, Point3D gps1) {
+	public static double distance3d(GpsCoord gps0, GpsCoord gps1) {
 		Point3D meterDiffVector = new Point3D(vector3D(gps0, gps1));
 		double outPutDistance = Math.sqrt(Math.pow(meterDiffVector.x(), 2) + Math.pow(meterDiffVector.y(), 2));
 		if (outPutDistance >= diastanceLimit) {
@@ -64,15 +65,15 @@ abstract public class MyCoords {
 	 * calculating the meter vector between two GPS coordinates
 	 */
 
-	public static Point3D vector3D(Point3D gps0, Point3D gps1) {
+	public static Point3D vector3D(GpsCoord gps0, GpsCoord gps1) {
 		// turning the difference between two given GPS cords to radian
-		double radianLatDiff = Point3D.d2r(gps1.x() - gps0.x());
-		double radianLonDiff = Point3D.d2r(gps1.y() - gps0.y());
+		double radianLatDiff = Point3D.d2r(gps1.getPoint().x() - gps0.getPoint().x());
+		double radianLonDiff = Point3D.d2r(gps1.getPoint().y() - gps0.getPoint().y());
 		// turning radian to actual meters (and calculating the alt diff)
 		double meterLatDiff = r2mLat(radianLatDiff);
-		double meterLonDiff = r2mLon(radianLonDiff, Math.cos(Point3D.d2r(gps0.x())));
+		double meterLonDiff = r2mLon(radianLonDiff, Math.cos(Point3D.d2r(gps0.getPoint().x())));
 		;
-		double meterAltDiff = gps1.z() - gps0.z();
+		double meterAltDiff = gps1.getPoint().z() - gps0.getPoint().z();
 		// returning a 3d point with these wanted values
 		return new Point3D(meterLatDiff, meterLonDiff, meterAltDiff);
 	}
@@ -86,7 +87,7 @@ abstract public class MyCoords {
 	 * MAX distance is defined to be 200km
 	 */
 
-	public static double[] azimuth_elevation_dist(Point3D gps0, Point3D gps1) {
+	public static double[] azimuth_elevation_dist(GpsCoord gps0, GpsCoord gps1) {
 		double[] outPut = new double[3];
 		// ***calculating the distance, we're starting from the distance because if the
 		// GPS coordinates too distant we can't calculate nothing based on them:
@@ -98,10 +99,10 @@ abstract public class MyCoords {
 		outPut[2] = distBetweenPoints;
 		// ***calculating the azimuth:
 		// converting all GPS decimal degree values to radian:
-		double radianLatGps0 = Point3D.d2r(gps0.x());
-		double radianLonGps0 = Point3D.d2r(gps0.y());
-		double radianLatGps1 = Point3D.d2r(gps1.x());
-		double radianLonGps1 = Point3D.d2r(gps1.y());
+		double radianLatGps0 = Point3D.d2r(gps0.getPoint().x());
+		double radianLonGps0 = Point3D.d2r(gps0.getPoint().y());
+		double radianLatGps1 = Point3D.d2r(gps1.getPoint().x());
+		double radianLonGps1 = Point3D.d2r(gps1.getPoint().y());
 		// calculating x & y according to the formula for forward azimuth [according
 		// to:https://www.movable-type.co.uk/scripts/latlong.html]
 		double y = Math.sin(radianLonGps1 - radianLonGps0) * Math.cos(radianLatGps1);
@@ -117,7 +118,7 @@ abstract public class MyCoords {
 		outPut[0] = azimuth;
 		// ***calculating the elevation based on the trigonometric functions tangens in
 		// a right-angled triangle:
-		double elevation = Math.atan((gps1.z() - gps0.z()) / distBetweenPoints);
+		double elevation = Math.atan((gps1.getPoint().z() - gps0.getPoint().z()) / distBetweenPoints);
 		outPut[1] = Point3D.r2d(elevation);
 		return outPut;
 	}

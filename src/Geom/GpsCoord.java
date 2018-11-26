@@ -4,8 +4,8 @@ public class GpsCoord extends MyCoords implements Geom_element {
 	
 	private Point3D thisP;
 	
-	public GpsCoord(double lat,double lon , double at) throws Exception {
-		thisP=new Point3D(lat,lon,at);
+	public GpsCoord(double lat,double lon , double alt) throws Exception {
+		thisP=new Point3D(lat,lon,alt);
 		if(!isValid_GPS_Point(thisP))throw new Exception("Not a valid gps coord");
 	}
 	
@@ -15,7 +15,15 @@ public class GpsCoord extends MyCoords implements Geom_element {
 			System.out.println("Input point is not a gps point!");
 			return Double.NaN;
 		}
-		return distance3d(thisP,p);
+		GpsCoord temp;
+		try {
+			temp = new GpsCoord(p.x(), p.y(), p.z());
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			return Double.NaN;
+		}
+		return distance3d(this,temp);
 	}
 
 	@Override
@@ -23,5 +31,7 @@ public class GpsCoord extends MyCoords implements Geom_element {
 		return distance3D(p);
 	}
 
-	
+	public Point3D getPoint() {
+		return this.thisP;
+	}
 }
