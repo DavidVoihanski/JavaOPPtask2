@@ -20,12 +20,36 @@ class MyCoordsTest {
 
 	@Test
 	void testAdd() {
-		// fail("Not yet implemented");
+		
 	}
 
 	@Test
 	void testDistance3d() {
-		// fail("Not yet implemented");
+		double dev; // allowed deviation will be 1% of the result we're supposed to get
+		double expected;
+		double diff3D;
+		// test close points
+		Point3D gps1 = new Point3D(32.063607, 34.835309, 670);
+		Point3D gps2 = new Point3D(32.062896, 34.840948, 7000);
+		double dist = tester.distance3d(gps1, gps2); // should be 538+- according to google earth
+		diff3D =Math.pow( gps2.z()-gps1.z(), 2);
+		expected = 538.0;
+		expected= Math.pow(expected, 2);
+		expected+=diff3D;
+		expected=Math.sqrt(expected);
+		dev = expected * 0.01;
+		if (dist > dev + expected || dist < expected - dev)
+			fail("Distance function failed");
+		// test far points
+		gps1 = new Point3D(32.063607, 34.835309, 670);
+		gps2 = new Point3D(31.990175, 34.800077, -345);
+		dist = tester.distance3d(gps1, gps2);
+		diff3D =Math.sqrt(Math.pow( gps2.z()-gps1.z(), 2));
+		expected = 8796.0;
+		expected+=diff3D;
+		dev = expected * 0.01;
+		if (dist > dev + expected || dist < expected - dev)
+			fail("Distance function failed");
 	}
 
 	@Test
@@ -34,7 +58,7 @@ class MyCoordsTest {
 		double expected;
 		// test close points
 		Point3D gps1 = new Point3D(32.063607, 34.835309, 670);
-		Point3D gps2 = new Point3D(32.062896, 34.840948, 9000);
+		Point3D gps2 = new Point3D(32.062896, 34.840948, 7000);
 		double dist = tester.distance2d(gps1, gps2); // should be 538+- according to google earth
 		expected = 538.0;
 		dev = expected * 0.01;
@@ -42,7 +66,7 @@ class MyCoordsTest {
 			fail("Distance function failed");
 		// test far points
 		gps1 = new Point3D(32.063607, 34.835309, 670);
-		gps2 = new Point3D(31.990175, 34.800077, 9000);
+		gps2 = new Point3D(31.990175, 34.800077, -345);
 		dist = tester.distance2d(gps1, gps2);
 		expected = 8796.0;
 		dev = expected * 0.01;
@@ -50,20 +74,24 @@ class MyCoordsTest {
 			fail("Distance function failed");
 	}
 
-	@Test
-	void testVector3D() {
-		// fail("Not yet implemented");
-	}
+//	@Test
+//	void testVector3D() {
+//		Point3D firstCoord = new Point3D(54.567, -56.78, 30);
+//		Point3D secondCoord = new Point3D(53, -55.5, 20);
+//		Point3D excpected = new Point3D(x, y, z)
+//		Point3D check = tester.vector3D(firstCoord, secondCoord);
+//	}
 
 	@Test
 	void testAzimuth_elevation_dist() {
 		// distance was already tested before so we'll skip that
 		//
-		Point3D centre = new Point3D(32.098729, 35.207258, 670); // the centre point
+		Point3D centre = new Point3D(32.098729, 35.207258, 670);// the centre point
+		//testing elevation
 		// 3 points distant 500+-eps meter away from centre
 		// the elevation difference should be 24.70243023, allowed deviation will be 0.1
 		// because the distances are exactly 500M
-		// because the disstance and the elevation is the same for all points it should
+		// because the distance and the elevation is the same for all points it should
 		// give the same
 		// result +-eps in arr[1] representing the elevation difference in degrees
 		double eps = 0.1;

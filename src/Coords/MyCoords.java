@@ -253,7 +253,7 @@ public class MyCoords implements coords_converter {
 	 */
 	@Override
 	public boolean isValid_GPS_Point(Point3D p) {
-		return ((p.x() >= -90 || p.x() <= 90) && (p.y() >= -180 || p.y() <= 180) && (p.z() >= -430 || p.z() <= 8848));
+		return ((p.x() >= -90 && p.x() <= 90) && (p.y() >= -180 && p.y() <= 180) && (p.z() >= -430 && p.z() <= 8848));
 	}
 
 	// private methods to convert radian to meter :
