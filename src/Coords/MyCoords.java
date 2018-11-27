@@ -194,6 +194,7 @@ public class MyCoords implements coords_converter {
 	 * @param gps1 second input point which represents a GPS coordinate
 	 * @return array which elements represent azimuth, elevation & 3d distance
 	 */
+
 	@Override
 	public double[] azimuth_elevation_dist(Point3D gps0, Point3D gps1) {
 		if (isValid_GPS_Point(gps0) && isValid_GPS_Point(gps1)) {
@@ -238,7 +239,6 @@ public class MyCoords implements coords_converter {
 			System.out.println("second arg isnt a valid gps coord. returning second arg");
 			return null;
 		}
-
 	}
 
 	/**
@@ -248,7 +248,8 @@ public class MyCoords implements coords_converter {
 	 * which is 8,848 [according to:https://en.wikipedia.org/wiki/Mount_Everest]
 	 * 
 	 * @param p input point which should be checked
-	 * @return boolean variable which indicates whether the point is a valid GPS coordinate
+	 * @return boolean variable which indicates whether the point is a valid GPS
+	 *         coordinate
 	 */
 	@Override
 	public boolean isValid_GPS_Point(Point3D p) {
