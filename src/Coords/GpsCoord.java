@@ -2,9 +2,10 @@ package Coords;
 
 import java.util.InvalidPropertiesFormatException;
 
+import Geom.Geom_element;
 import Geom.Point3D;
 
-public class GpsCoord {
+public class GpsCoord implements Geom_element {
 	/**
 	 * this class represents a GPS coordinate
 	 */
@@ -33,6 +34,18 @@ public class GpsCoord {
 			throw new InvalidPropertiesFormatException(
 					"the point: " + internalPoint + " dose not represent a valid GPS coord");
 		}
+	}
+
+	/**
+	 * 
+	 * @return
+	 */
+	public Point3D getInternalPoint() {
+		return internalPoint;
+	}
+
+	public void setInternalPoint(Point3D internalPoint) {
+		this.internalPoint = internalPoint;
 	}
 
 	/**
@@ -76,6 +89,16 @@ public class GpsCoord {
 	 */
 	public double[] azimuth_elevation_dist(GpsCoord inPutCoord) {
 		return convertMethods.azimuth_elevation_dist(this.internalPoint, inPutCoord.internalPoint);
+	}
+
+	@Override
+	public double distance3D(Point3D p) {
+		return distance3D(p);
+	}
+
+	@Override
+	public double distance2D(Point3D p) {
+		return distance2D(p);
 	}
 
 }
