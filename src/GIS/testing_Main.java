@@ -12,6 +12,8 @@ public class testing_Main {
 		GisElement test_1 = new GisElement(a.get(2));
 		GpsCoord b = (GpsCoord) test_1.getGeom();
 		System.out.println(b.getInternalPoint());
+		MetaData c = (MetaData) test_1.getData();
+		long time=c.getUTC();
+		System.out.println(time);
 	}
-
 }
