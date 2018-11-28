@@ -64,8 +64,7 @@ public class GpsCoord implements Geom_element {
 	 */
 	@Override
 	public String toString() {
-		return "lat: " + this.internalPoint.x() + ", lon: " + this.internalPoint.y() + ", alt: "
-				+ this.internalPoint.z();
+		return "" + this.internalPoint.x()+", "+this.getLon();
 	}
 
 	/**
