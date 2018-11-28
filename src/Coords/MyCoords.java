@@ -36,7 +36,7 @@ public class MyCoords implements coords_converter {
 		if (isValid_GPS_Point(gps)) {
 			// calculating the lonNorm as we'll use it two times - to convert from radian to
 			// meters and from meters back to radian
-			double lonNorm = Math.cos(Point3D.d2r(gps.x()));
+			double lonNorm = Math.cos((Point3D.d2r(gps.x())));
 			// converting the decimal degrees to radian
 			double radianLat = Point3D.d2r(gps.x());
 			double radianLon = Point3D.d2r(gps.y());
@@ -49,13 +49,15 @@ public class MyCoords implements coords_converter {
 			double gps1MeterAlt = gps.z() + local_vector_in_meter.z();
 			// converting the meter back to radian
 			double radianGps1Lat = m2rLat(gps1MeterLat);
+			lonNorm=Math.cos(radianGps1Lat);
 			double radianGps1Lon = m2rLon(gps1MeterLon, lonNorm);
 			// converting the radian back to decimal degrees
 			double gps1Lat = Point3D.r2d(radianGps1Lat);
 			double gps1Lon = Point3D.r2d(radianGps1Lon);
+			Point3D output = new Point3D(gps1Lat, gps1Lon, gps1MeterAlt);
 			// returning the GPS point of Point3d type
-			if (isValid_GPS_Point(new Point3D(gps1Lat, gps1Lon, gps1MeterAlt))) {
-				return new Point3D(gps1Lat, gps1Lon, gps1MeterAlt);
+			if (isValid_GPS_Point(output)) {
+				return output;
 			}
 			// checking whether after the vector addition the point is still a valid GPS
 			// coord
@@ -253,25 +255,34 @@ public class MyCoords implements coords_converter {
 	 */
 	@Override
 	public boolean isValid_GPS_Point(Point3D p) {
+		if (!(p.x() >= -90 && p.x() <= 90)) {
+			System.out.println(p.x());
+		}
+		if (!(p.y() >= -180 && p.y() <= 180)) {
+			System.out.println(p.y());
+		}
+		if (!(p.z() >= -430 && p.z() <= 8848))
+			System.out.println(p.z());
 		return ((p.x() >= -90 && p.x() <= 90) && (p.y() >= -180 && p.y() <= 180) && (p.z() >= -430 && p.z() <= 8848));
 	}
 
 	// private methods to convert radian to meter :
 	private double r2mLat(double radianLatInput) {
-		return (Math.sin(radianLatInput)) * earthRadius;
+		return (Math.sin(radianLatInput) * earthRadius);
 	}
 
 	private double r2mLon(double radianLonInput, double lonNorm) {
-		return (Math.sin(radianLonInput)) * (earthRadius * lonNorm);
+		return (Math.sin(radianLonInput) * (earthRadius * lonNorm));
 	}
 
 	// private methods to convert from meter to radian :
 	private double m2rLat(double meterLatInput) {
-		return (Math.sin(meterLatInput)) * earthRadius;
+		return (Math.asin(meterLatInput / earthRadius));
 	}
 
 	private double m2rLon(double meterLonInput, double lonNorm) {
-		return (Math.sin(meterLonInput)) * (earthRadius * lonNorm);
+		double multiRadiusNorm = earthRadius * lonNorm;
+		return (Math.asin(meterLonInput/multiRadiusNorm));
 	}
 
 }

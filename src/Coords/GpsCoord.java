@@ -35,17 +35,37 @@ public class GpsCoord implements Geom_element {
 					"the point: " + internalPoint + " dose not represent a valid GPS coord");
 		}
 	}
+/**
+ * 
+ * @param inputToCopy
+ * @throws InvalidPropertiesFormatException
+ */
+	public GpsCoord(Point3D inputToCopy) throws InvalidPropertiesFormatException {
+		this.convertMethods=new MyCoords();
+		if (convertMethods.isValid_GPS_Point(inputToCopy)) {
+			this.internalPoint = new Point3D(inputToCopy);
+		} else
+			throw new InvalidPropertiesFormatException(
+					"the point: " + inputToCopy + " dose not represent a valid GPS coord");
+	}
 
 	/**
 	 * 
+	 * @param inputCoord
+	 * @param meterVector
 	 * @return
 	 */
-	public Point3D getInternalPoint() {
-		return internalPoint;
+	public Point3D add(Point3D meterVector) {
+		return (convertMethods.add(this.getInternalPoint(), meterVector));
 	}
 
-	public void setInternalPoint(Point3D internalPoint) {
-		this.internalPoint = internalPoint;
+	/**
+	 * 
+	 */
+	@Override
+	public String toString() {
+		return "lat: " + this.internalPoint.x() + ", lon: " + this.internalPoint.y() + ", alt: "
+				+ this.internalPoint.z();
 	}
 
 	/**
@@ -75,8 +95,8 @@ public class GpsCoord implements Geom_element {
 	 * @return 3D vector which values are the difference between both GPS
 	 *         coordinates in meters
 	 */
-	public Point3D vector3D(GpsCoord inPutCoord) {
-		return convertMethods.vector3D(this.internalPoint, inPutCoord.internalPoint);
+	public Point3D vector3D(Point3D inPutMeterVector) {
+		return convertMethods.vector3D(this.internalPoint, inPutMeterVector);
 	}
 
 	/**
@@ -99,6 +119,24 @@ public class GpsCoord implements Geom_element {
 	@Override
 	public double distance2D(Point3D p) {
 		return distance2D(p);
+	}
+
+	// getters:
+
+	public Point3D getInternalPoint() {
+		return internalPoint;
+	}
+
+	public double getLat() {
+		return this.internalPoint.x();
+	}
+
+	public double getLon() {
+		return this.internalPoint.y();
+	}
+
+	public double getAlt() {
+		return this.internalPoint.z();
 	}
 
 }

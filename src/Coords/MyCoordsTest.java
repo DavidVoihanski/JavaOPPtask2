@@ -2,9 +2,10 @@ package Coords;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+import java.util.InvalidPropertiesFormatException;
+
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-
 import Geom.Point3D;
 
 class MyCoordsTest {
@@ -20,7 +21,31 @@ class MyCoordsTest {
 
 	@Test
 	void testAdd() {
-		
+		GpsCoord gpsCoord = null;
+		GpsCoord expected = null;
+		GpsCoord output = null;
+		try {
+			gpsCoord = new GpsCoord(59.666, 99.666, 6);
+		} catch (InvalidPropertiesFormatException e) {
+			e.printStackTrace();
+			fail("gps coord constructor failed");
+		}
+		Point3D meterVector = new Point3D(222.3898532, 1235.473173, 4);
+		try {
+			expected = new GpsCoord(59.668, 99.688, 10);
+		} catch (InvalidPropertiesFormatException e) {
+			e.printStackTrace();
+			fail("gps coord constructor failed");
+		}
+		try {
+			output = new GpsCoord(gpsCoord.add(meterVector));
+		} catch (InvalidPropertiesFormatException e) {
+			e.printStackTrace();
+			fail("gps coord constructor failed");
+		}
+		if(!output.equals(expected)) {
+			fail("add method failed #1");
+		}
 	}
 
 	@Test
@@ -32,11 +57,11 @@ class MyCoordsTest {
 		Point3D gps1 = new Point3D(32.063607, 34.835309, 670);
 		Point3D gps2 = new Point3D(32.062896, 34.840948, 7000);
 		double dist = tester.distance3d(gps1, gps2); // should be 538+- according to google earth
-		diff3D =Math.pow( gps2.z()-gps1.z(), 2);
+		diff3D = Math.pow(gps2.z() - gps1.z(), 2);
 		expected = 538.0;
-		expected= Math.pow(expected, 2);
-		expected+=diff3D;
-		expected=Math.sqrt(expected);
+		expected = Math.pow(expected, 2);
+		expected += diff3D;
+		expected = Math.sqrt(expected);
 		dev = expected * 0.01;
 		if (dist > dev + expected || dist < expected - dev)
 			fail("Distance function failed");
@@ -44,9 +69,9 @@ class MyCoordsTest {
 		gps1 = new Point3D(32.063607, 34.835309, 670);
 		gps2 = new Point3D(31.990175, 34.800077, -345);
 		dist = tester.distance3d(gps1, gps2);
-		diff3D =Math.sqrt(Math.pow( gps2.z()-gps1.z(), 2));
+		diff3D = Math.sqrt(Math.pow(gps2.z() - gps1.z(), 2));
 		expected = 8796.0;
-		expected+=diff3D;
+		expected += diff3D;
 		dev = expected * 0.01;
 		if (dist > dev + expected || dist < expected - dev)
 			fail("Distance function failed");
@@ -87,7 +112,7 @@ class MyCoordsTest {
 		// distance was already tested before so we'll skip that
 		//
 		Point3D centre = new Point3D(32.098729, 35.207258, 670);// the centre point
-		//testing elevation
+		// testing elevation
 		// 3 points distant 500+-eps meter away from centre
 		// the elevation difference should be 24.70243023, allowed deviation will be 0.1
 		// because the distances are exactly 500M
