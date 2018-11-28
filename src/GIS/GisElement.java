@@ -6,6 +6,7 @@ import Geom.Geom_element;
 
 public class GisElement implements GIS_element {
 	private String[] dataLine;
+	private MetaData elementsData;
 
 	public GisElement(String[] certainLine) {
 		this.dataLine = certainLine;
@@ -26,8 +27,8 @@ public class GisElement implements GIS_element {
 
 	@Override
 	public Meta_data getData() {
-		MetaData outPut = new MetaData(this.getGeom(), this.pullData());
-		return outPut;
+		this.elementsData = new MetaData(this.getGeom(), this.pullData());
+		return ((Meta_data)elementsData);
 	}
 
 	private String[] pullData() {

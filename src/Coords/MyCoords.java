@@ -42,7 +42,7 @@ public class MyCoords implements coords_converter {
 			double radianLon = Point3D.d2r(gps.y());
 			// converting the radian to meter
 			double meterLat = r2mLat(radianLat);
-			double meterLon = r2mLon(radianLon, lonNorm);
+			double meterLon = r2mLon(radianLon, 1);
 			// adding the meters from the vector to the one we got
 			double gps1MeterLat = meterLat + local_vector_in_meter.x();
 			double gps1MeterLon = meterLon + local_vector_in_meter.y();
@@ -50,7 +50,7 @@ public class MyCoords implements coords_converter {
 			// converting the meter back to radian
 			double radianGps1Lat = m2rLat(gps1MeterLat);
 			lonNorm=Math.cos(radianGps1Lat);
-			double radianGps1Lon = m2rLon(gps1MeterLon, lonNorm);
+			double radianGps1Lon = m2rLon(gps1MeterLon, 1);
 			// converting the radian back to decimal degrees
 			double gps1Lat = Point3D.r2d(radianGps1Lat);
 			double gps1Lon = Point3D.r2d(radianGps1Lon);
@@ -282,7 +282,8 @@ public class MyCoords implements coords_converter {
 
 	private double m2rLon(double meterLonInput, double lonNorm) {
 		double multiRadiusNorm = earthRadius * lonNorm;
-		return (Math.asin(meterLonInput/multiRadiusNorm));
+		meterLonInput=meterLonInput/ multiRadiusNorm;
+		return (Math.asin(meterLonInput));
 	}
 
 }
