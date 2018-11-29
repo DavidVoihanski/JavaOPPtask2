@@ -35,18 +35,24 @@ public class GpsCoord implements Geom_element {
 					"the point: " + internalPoint + " dose not represent a valid GPS coord");
 		}
 	}
-/**
- * 
- * @param inputToCopy
- * @throws InvalidPropertiesFormatException
- */
+
+	/**
+	 * 
+	 * @param inputToCopy
+	 * @throws InvalidPropertiesFormatException
+	 */
 	public GpsCoord(Point3D inputToCopy) throws InvalidPropertiesFormatException {
-		this.convertMethods=new MyCoords();
+		this.convertMethods = new MyCoords();
 		if (convertMethods.isValid_GPS_Point(inputToCopy)) {
 			this.internalPoint = new Point3D(inputToCopy);
 		} else
 			throw new InvalidPropertiesFormatException(
 					"the point: " + inputToCopy + " dose not represent a valid GPS coord");
+	}
+
+	public GpsCoord(Geom_element inputToCopy) throws InvalidPropertiesFormatException {
+		this.convertMethods = new MyCoords();
+		this.internalPoint = (Point3D)((GpsCoord) inputToCopy).getInternalPoint();
 	}
 
 	/**
@@ -64,7 +70,7 @@ public class GpsCoord implements Geom_element {
 	 */
 	@Override
 	public String toString() {
-		return "" + this.internalPoint.x()+", "+this.getLon();
+		return ("" + this.internalPoint.x() + ", " + this.internalPoint.y() + ", " + this.internalPoint.z());
 	}
 
 	/**

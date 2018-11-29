@@ -4,18 +4,24 @@ import java.util.Arrays;
 import java.util.Date;
 
 import Coords.GpsCoord;
-import Geom.Geom_element;
 import Geom.Point3D;
 
 public class MetaData implements Meta_data {
-	private Geom_element certainGpsCoord;
+	private GpsCoord certainGpsCoord;
 	private String[] data;
 
-	public MetaData(Geom_element certainGpsCoord, String[] dataInCertainPoint) {
+	public MetaData(GpsCoord certainGpsCoord, String[] dataInCertainPoint) {
 		this.certainGpsCoord = certainGpsCoord;
 		this.data = dataInCertainPoint;
 	}
 
+	public MetaData(Meta_data toCopyFrom) {
+		MetaData temp = (MetaData) toCopyFrom;
+		this.certainGpsCoord = temp.certainGpsCoord;
+		this.data = temp.data;
+	}
+
+	@SuppressWarnings({ "static-access", "deprecation" })
 	@Override
 	public long getUTC() {
 		int[] dataInInteger = splitterForDateTime(this.data[3]);
@@ -28,6 +34,9 @@ public class MetaData implements Meta_data {
 	public Point3D get_Orientation() {
 		// TODO Auto-generated method stub
 		return null;
+	}
+	public String[] getDataArray() {
+		return this.data;
 	}
 
 	private int[] splitterForDateTime(String timeData) {

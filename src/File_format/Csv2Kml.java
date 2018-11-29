@@ -15,7 +15,10 @@ import GIS.GIS_element;
 import GIS.GIS_layer;
 import GIS.GisElement;
 import GIS.GisLayer;
+import GIS.MetaData;
+import de.micromata.opengis.kml.v_2_2_0.Document;
 import de.micromata.opengis.kml.v_2_2_0.Kml;
+import de.micromata.opengis.kml.v_2_2_0.Placemark;
 
 public class Csv2Kml {
 	public static ArrayList<String[]> csvReader(String filePath) {
@@ -48,26 +51,47 @@ public class Csv2Kml {
 		return readedInfoOutPut;
 	}
 
-	public static GIS_layer csv2GisLayer(ArrayList<String[]> csvReadedFile) {
-		GisLayer output = new GisLayer();
+	public static GisLayer csv2GisLayer(ArrayList<String[]> csvReadedFile) {
 		Iterator<String[]> it = csvReadedFile.iterator();
-		while(it.hasNext()) {
-			String[] currentCsvString = it.next();
-			GisElement currentElement = new GisElement(currentCsvString);
-			output.add(currentElement);
+		it.next();
+		it.next();
+		GisLayer layerOutput = new GisLayer();
+		while (it.hasNext()) {
+			String[] currentLine = it.next();
+			layerOutput.add(new GisElement(currentLine));
 		}
-		return output;
+		return layerOutput;
 	}
-	public static void gisLayer2KML (GisLayer certainLayer) throws FileNotFoundException {
+
+	public static void gisLayer2KML(GisLayer certainLayer, String filePath) throws FileNotFoundException {
 		final Kml kml = new Kml();
+		Document doc = kml.createAndSetDocument();
+		System.out.println("abcd");
 		Iterator<GIS_element> it = certainLayer.iterator();
-		while(it.hasNext()) {
-			GisElement current =  (GisElement) it.next();
-			kml.createAndSetPlacemark()
-			   .withName(current.getData().toString()).withOpen(Boolean.TRUE)
-					.createAndSetPoint().addToCoordinates();
+		StringBuilder descOfElement = new StringBuilder();
+		while (it.hasNext()) {
+			descOfElement = new StringBuilder();
+			GisElement current = (GisElement) it.next();
+			MetaData currentData = (MetaData) current.getData();
+			String[] wholeData = currentData.getDataArray();
+			descOfElement.append("BBSSID: "+wholeData[0] + "\n");
+			descOfElement.append("Capabilities: " + wholeData[2] + "\n");
+			descOfElement.append("Timestamp: " + currentData.getUTC() + "\n");
+			descOfElement.append("date: " + wholeData[3]);
+			Placemark place = doc.createAndAddPlacemark().withName(wholeData[1]).withOpen(Boolean.TRUE);
+			place.setDescription(descOfElement.toString());
+			place.createAndSetTimeStamp().withWhen(wholeData[3]);
+			place.createAndSetPoint().addToCoordinates(((GpsCoord) current.getGeom()).getLon(),
+					((GpsCoord) current.getGeom()).getLat(), ((GpsCoord) current.getGeom()).getAlt());
 		}
-		kml.marshal(new File("/kmlFileOutout/kml1.kml"));
+		System.out.println("abcd#2");
+		try {
+			kml.marshal(new File(filePath));
+		} catch (IOException e) {
+			System.out.println("ERR in KML MARSHAL");
+			return;
+		}
+		System.out.println("abcd#3");
 	}
-	//KML file OUTPUT FROM GIS LAYER METHOD//
+
 }

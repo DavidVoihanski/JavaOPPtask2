@@ -5,36 +5,51 @@ import Coords.GpsCoord;
 import Geom.Geom_element;
 
 public class GisElement implements GIS_element {
-	private String[] dataLine;
 	private MetaData elementsData;
+	private GpsCoord location;
 
-	public GisElement(String[] certainLine) {
-		this.dataLine = certainLine;
+	public GisElement(String[] certainCsvLine) {
+		this.location = this.getLocation(certainCsvLine);
+		this.elementsData = this.getData(certainCsvLine);
+	}
+
+	public GisElement(GIS_element toCopyFrom) {
+		this.elementsData = (MetaData) toCopyFrom.getData();
+		this.location = (GpsCoord) toCopyFrom.getGeom();
 	}
 
 	@Override
 	public Geom_element getGeom() {
-		GpsCoord outPut = null;
-		try {
-			outPut = new GpsCoord(Double.parseDouble(this.dataLine[6]), Double.parseDouble(this.dataLine[7]),
-					Double.parseDouble(this.dataLine[8]));
-		} catch (NumberFormatException | InvalidPropertiesFormatException e) {
-			e.printStackTrace();
-			return null;
-		}
-		return (Geom_element) outPut;
+		return (Geom_element) this.location;
 	}
 
 	@Override
 	public Meta_data getData() {
-		this.elementsData = new MetaData(this.getGeom(), this.pullData());
-		return ((Meta_data)elementsData);
+		return (Meta_data) this.elementsData;
 	}
 
-	private String[] pullData() {
-		String[] outPut = { this.dataLine[0], this.dataLine[1], this.dataLine[2], this.dataLine[3], this.dataLine[4],
-				this.dataLine[5], this.dataLine[9], this.dataLine[10] };
+	// private methods :
+	private GpsCoord getLocation(String[] certainCsvLine) {
+		GpsCoord outputLocation = null;
+		try {
+			outputLocation = new GpsCoord(Double.parseDouble(certainCsvLine[6]), Double.parseDouble(certainCsvLine[7]),
+					Double.parseDouble(certainCsvLine[8]));
+		} catch (NumberFormatException | InvalidPropertiesFormatException e) {
+			e.printStackTrace();
+			return null;
+		}
+		return outputLocation;
+	}
+
+	private String[] pullData(String[] certainCsvLine) {
+		String[] outPut = { certainCsvLine[0], certainCsvLine[1], certainCsvLine[2], certainCsvLine[3],
+				certainCsvLine[4], certainCsvLine[5], certainCsvLine[9], certainCsvLine[10] };
 		return outPut;
+	}
+
+	private MetaData getData(String[] certainCsvLine) {
+		MetaData outputData = new MetaData(this.getLocation(certainCsvLine), this.pullData(certainCsvLine));
+		return (outputData);
 	}
 
 }

@@ -2,30 +2,37 @@ package GIS;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.InvalidPropertiesFormatException;
 import java.util.Iterator;
 
-import org.hamcrest.core.IsInstanceOf;
 
-import Geom.Point3D;
+import Coords.GpsCoord;
 
 public class GisLayer implements GIS_layer {
 	private ArrayList<GIS_element> set;
-    private LeyarsMetaData layerData; 
+	private LeyarsMetaData layerData;
+
 	public GisLayer() {
 		this.set = new ArrayList<>();
-		layerData=new LeyarsMetaData();
+		layerData = new LeyarsMetaData();
 	}
 
 	@Override
 	public boolean add(GIS_element e) {
+		GisElement temp = new GisElement(e);
 		Iterator<GIS_element> it = set.iterator();
 		while (it.hasNext()) {
-			GIS_element current = it.next();
-			if (isEqual(current, e)) {
+			GisElement current = (GisElement) it.next();
+			try {
+				if (isEqual(current, temp)) {
+					return false;
+				}
+			} catch (InvalidPropertiesFormatException e1) {
+				e1.printStackTrace();
 				return false;
 			}
 		}
-		set.add(e);
+		set.add(temp);
 		return true;
 	}
 
@@ -35,7 +42,7 @@ public class GisLayer implements GIS_layer {
 		Iterator<? extends GIS_element> it = c.iterator();
 		while (it.hasNext()) {
 			GIS_element current = it.next();
-			if (!this.set.add(current)) {
+			if (!this.set.add((GisElement) current)) {
 				output = false;
 			}
 		}
@@ -64,22 +71,22 @@ public class GisLayer implements GIS_layer {
 
 	@Override
 	public Iterator<GIS_element> iterator() {
-		return this.set.iterator();
+		return (Iterator<GIS_element>) this.set.iterator();
 	}
 
 	@Override
-	public boolean remove(Object o){
-			return this.set.remove(o);
+	public boolean remove(Object o) {
+		return this.set.remove(o);
 	}
 
 	@Override
 	public boolean removeAll(Collection<?> c) {
-		Iterator<?>it= c.iterator();
-		boolean flag=true;
-		while(it.hasNext()) {
-			Object toRemove=it.next();
-			if(!remove(toRemove)) {
-				flag=false;
+		Iterator<?> it = c.iterator();
+		boolean flag = true;
+		while (it.hasNext()) {
+			Object toRemove = it.next();
+			if (!remove(toRemove)) {
+				flag = false;
 			}
 		}
 		return flag;
@@ -107,14 +114,17 @@ public class GisLayer implements GIS_layer {
 
 	@Override
 	public Meta_data get_Meta_data() {
-		return (Meta_data)layerData;
+		return (Meta_data) layerData;
 	}
 
-	private boolean isEqual(GIS_element arg1, GIS_element arg2) {
-		if ((!arg1.getData().toString().equals(arg2.getData().toString()))
-				|| (arg1.getGeom().distance3D((Point3D) arg2) != 0)) {
-			return false;
+	private boolean isEqual(GisElement arg1, GisElement arg2) throws InvalidPropertiesFormatException {
+		GpsCoord arg1Location = new GpsCoord(arg1.getGeom());
+		GpsCoord arg2Location = new GpsCoord(arg2.getGeom());
+		MetaData arg1Data = new MetaData(arg1.getData());
+		MetaData arg2Data = new MetaData(arg2.getData());
+		if (arg1Location.distance3D(arg2Location) == 0 && arg1Data.toString().equals(arg2Data.toString())) {
+			return true;
 		}
-		return true;
+		return false;
 	}
 }

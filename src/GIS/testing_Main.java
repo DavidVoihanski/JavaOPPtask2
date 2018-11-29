@@ -1,7 +1,9 @@
 package GIS;
 
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
+
 
 import File_format.Csv2Kml;
 
@@ -9,25 +11,16 @@ public class testing_Main {
 
 	public static void main(String[] args) {
 		ArrayList<String[]> a = Csv2Kml.csvReader("/csvFilesTest/WigleWifi_20171201110209.csv");
-		GisElement test_1 = new GisElement(a.get(2));
-		GisElement test_2 = new GisElement(a.get(3));
-		GisLayer testlayer=new GisLayer();
-		testlayer.add(test_1);
-		testlayer.add(test_2);
+		GisLayer test = Csv2Kml.csv2GisLayer(a);
+		String path = "C:" + File.separator + "Users" + File.separator + "evgen" + File.separator + "eclipse-workspace"
+				+ File.separator + "OopAssignment2-4" + File.separator + "kmlFilesOutPut" + File.separator + "kml2.kml";
 		try {
-			Csv2Kml.gisLayer2KML(testlayer);
+			Csv2Kml.gisLayer2KML(test, path);
 		} catch (FileNotFoundException e) {
-			e.printStackTrace();
+			System.out.println("ERR");
+			return;
 		}
-		
-		//Iterator<GIS_element>it=testlayer.();
-		
-		MetaData z = (MetaData) test_1.getData();
-		System.out.println(z);
-//		GpsCoord b = (GpsCoord) test_1.getGeom();
-//		System.out.println(b.getInternalPoint());
-//		MetaData c = (MetaData) test_1.getData();
-//		long time=c.getUTC();
-//		System.out.println(test_1.compareTo(test_2));
+		System.out.println("done..");
 	}
+
 }
