@@ -8,7 +8,6 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-
 import Coords.GpsCoord;
 import GIS.GIS_element;
 import GIS.GisElement;
@@ -18,7 +17,31 @@ import de.micromata.opengis.kml.v_2_2_0.Document;
 import de.micromata.opengis.kml.v_2_2_0.Kml;
 import de.micromata.opengis.kml.v_2_2_0.Placemark;
 
+/**
+ * this class is used to read CSV files from certain path on the computer, and
+ * convert them to GIS layer which is finally converted to KML file
+ * 
+ * @author Evgeny&David
+ *
+ */
 public class Csv2Kml {
+	/**
+	 * converting an CSV file which found on the input path, and creating a KML file
+	 * with all the information asked on the output path
+	 * 
+	 * @param csvInputPath        the place where the CSV file is found
+	 * @param wantedKmlOutputPath the place where you wish to create the KML file
+	 * @throws FileNotFoundException if the file isn't found
+	 */
+	public static void csv2kml(String csvInputPath, String wantedKmlOutputPath) throws FileNotFoundException {
+		ArrayList<String[]> readedCsv = csvReader(csvInputPath);//"reading" the csv file
+		GisLayer geoLayer = csv2GisLayer(readedCsv);//turning it to GIS layer
+		gisLayer2KML(geoLayer, wantedKmlOutputPath);// turning the GIS layer to KML
+		System.out.println("done...");
+	}
+
+	// private supporting methods:
+
 	private static ArrayList<String[]> csvReader(String filePath) {
 		ArrayList<String[]> readedInfoOutPut = new ArrayList<>();
 		BufferedReader br = null;
@@ -77,7 +100,9 @@ public class Csv2Kml {
 			descOfElement.append("date: " + wholeData[3]);
 			Placemark place = doc.createAndAddPlacemark().withName(wholeData[1]).withOpen(Boolean.TRUE);
 			place.setDescription(descOfElement.toString());
-			place.createAndSetTimeStamp().withWhen(wholeData[3]);
+			String timeStamp = wholeData[3];
+			timeStamp = timeStamp.replace(' ', 'T');
+			place.createAndSetTimeStamp().withWhen(timeStamp);
 			place.createAndSetPoint().addToCoordinates(((GpsCoord) current.getGeom()).getLon(),
 					((GpsCoord) current.getGeom()).getLat(), ((GpsCoord) current.getGeom()).getAlt());
 		}
@@ -87,13 +112,6 @@ public class Csv2Kml {
 			System.out.println("ERR in KML MARSHAL");
 			return;
 		}
-	}
-
-	public static void csv2kml(String csvInputPath, String wantedKmlOutputPath) throws FileNotFoundException {
-		ArrayList<String[]> readedCsv = csvReader(csvInputPath);
-		GisLayer geoLayer = csv2GisLayer(readedCsv);
-		gisLayer2KML(geoLayer, wantedKmlOutputPath);
-		System.out.println("done...");
 	}
 
 }

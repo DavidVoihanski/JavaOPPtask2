@@ -37,19 +37,26 @@ public class GpsCoord implements Geom_element {
 	}
 
 	/**
+	 * copy constructor which input is a Point3D instance
 	 * 
-	 * @param inputToCopy
-	 * @throws InvalidPropertiesFormatException
+	 * @param inputToCopy instance we would like to copy
+	 * @throws InvalidPropertiesFormatException in case input point doesn't
+	 *                                          represent a valid gps coord
 	 */
 	public GpsCoord(Point3D inputToCopy) throws InvalidPropertiesFormatException {
 		this.convertMethods = new MyCoords();
-		if (convertMethods.isValid_GPS_Point(inputToCopy)) {
+		if (convertMethods.isValid_GPS_Point(inputToCopy)) {// validating that the point is valid gps coord
 			this.internalPoint = new Point3D(inputToCopy);
 		} else
 			throw new InvalidPropertiesFormatException(
 					"the point: " + inputToCopy + " dose not represent a valid GPS coord");
 	}
 
+	/**
+	 * 
+	 * @param inputToCopy
+	 * @throws InvalidPropertiesFormatException
+	 */
 	public GpsCoord(Geom_element inputToCopy) throws InvalidPropertiesFormatException {
 		this.convertMethods = new MyCoords();
 		this.internalPoint = (Point3D) ((GpsCoord) inputToCopy).getInternalPoint();
