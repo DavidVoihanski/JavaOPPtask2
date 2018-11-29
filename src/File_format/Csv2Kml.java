@@ -8,11 +8,9 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-import org.omg.CORBA.Current;
 
 import Coords.GpsCoord;
 import GIS.GIS_element;
-import GIS.GIS_layer;
 import GIS.GisElement;
 import GIS.GisLayer;
 import GIS.MetaData;
@@ -21,7 +19,7 @@ import de.micromata.opengis.kml.v_2_2_0.Kml;
 import de.micromata.opengis.kml.v_2_2_0.Placemark;
 
 public class Csv2Kml {
-	public static ArrayList<String[]> csvReader(String filePath) {
+	private static ArrayList<String[]> csvReader(String filePath) {
 		ArrayList<String[]> readedInfoOutPut = new ArrayList<>();
 		BufferedReader br = null;
 		try {
@@ -51,7 +49,7 @@ public class Csv2Kml {
 		return readedInfoOutPut;
 	}
 
-	public static GisLayer csv2GisLayer(ArrayList<String[]> csvReadedFile) {
+	private static GisLayer csv2GisLayer(ArrayList<String[]> csvReadedFile) {
 		Iterator<String[]> it = csvReadedFile.iterator();
 		it.next();
 		it.next();
@@ -63,10 +61,9 @@ public class Csv2Kml {
 		return layerOutput;
 	}
 
-	public static void gisLayer2KML(GisLayer certainLayer, String filePath) throws FileNotFoundException {
+	private static void gisLayer2KML(GisLayer certainLayer, String filePath) throws FileNotFoundException {
 		final Kml kml = new Kml();
 		Document doc = kml.createAndSetDocument();
-		System.out.println("abcd");
 		Iterator<GIS_element> it = certainLayer.iterator();
 		StringBuilder descOfElement = new StringBuilder();
 		while (it.hasNext()) {
@@ -74,7 +71,7 @@ public class Csv2Kml {
 			GisElement current = (GisElement) it.next();
 			MetaData currentData = (MetaData) current.getData();
 			String[] wholeData = currentData.getDataArray();
-			descOfElement.append("BBSSID: "+wholeData[0] + "\n");
+			descOfElement.append("BBSSID: " + wholeData[0] + "\n");
 			descOfElement.append("Capabilities: " + wholeData[2] + "\n");
 			descOfElement.append("Timestamp: " + currentData.getUTC() + "\n");
 			descOfElement.append("date: " + wholeData[3]);
@@ -84,14 +81,19 @@ public class Csv2Kml {
 			place.createAndSetPoint().addToCoordinates(((GpsCoord) current.getGeom()).getLon(),
 					((GpsCoord) current.getGeom()).getLat(), ((GpsCoord) current.getGeom()).getAlt());
 		}
-		System.out.println("abcd#2");
 		try {
 			kml.marshal(new File(filePath));
 		} catch (IOException e) {
 			System.out.println("ERR in KML MARSHAL");
 			return;
 		}
-		System.out.println("abcd#3");
+	}
+
+	public static void csv2kml(String csvInputPath, String wantedKmlOutputPath) throws FileNotFoundException {
+		ArrayList<String[]> readedCsv = csvReader(csvInputPath);
+		GisLayer geoLayer = csv2GisLayer(readedCsv);
+		gisLayer2KML(geoLayer, wantedKmlOutputPath);
+		System.out.println("done...");
 	}
 
 }
