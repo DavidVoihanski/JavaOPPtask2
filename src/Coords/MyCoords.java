@@ -11,8 +11,8 @@ import Geom.Point3D;
 public class MyCoords implements coords_converter {
 	// earths radius based on given excel
 	private final static int earthRadius = 6371000;
-	// max distance were capable of calculating
-	private final static int diastanceLimit = 200 * 1000;
+	// max distance were capable of calculating, 100KM
+	private final static int diastanceLimit = 100 * 1000;
 
 	/**
 	 * adding a meter vector to the GPS coordinate and returning the new GPS
@@ -33,10 +33,9 @@ public class MyCoords implements coords_converter {
 	public Point3D add(Point3D gps, Point3D local_vector_in_meter) {
 		// checking whether the point is valid GPS coordinates, if is is- do
 		// the calculation
-		if (isValid_GPS_Point(gps)) {
-			// calculating the lonNorm as we'll use it two times - to convert from radian to
+		if (isValid_GPS_Point(gps)
+				&& (local_vector_in_meter.x() < diastanceLimit && local_vector_in_meter.y() < diastanceLimit)) {
 			// meters and from meters back to radian
-			double lonNorm = Math.cos((Point3D.d2r(gps.x())));
 			// converting the decimal degrees to radian
 			double radianLat = Point3D.d2r(gps.x());
 			double radianLon = Point3D.d2r(gps.y());
@@ -49,7 +48,6 @@ public class MyCoords implements coords_converter {
 			double gps1MeterAlt = gps.z() + local_vector_in_meter.z();
 			// converting the meter back to radian
 			double radianGps1Lat = m2rLat(gps1MeterLat);
-			lonNorm=Math.cos(radianGps1Lat);
 			double radianGps1Lon = m2rLon(gps1MeterLon, 1);
 			// converting the radian back to decimal degrees
 			double gps1Lat = Point3D.r2d(radianGps1Lat);
@@ -58,6 +56,11 @@ public class MyCoords implements coords_converter {
 			// returning the GPS point of Point3d type
 			if (isValid_GPS_Point(output)) {
 				return output;
+			}
+			// checking whether the distance added is more than the maximum distance limit
+			else if (local_vector_in_meter.x() > diastanceLimit || local_vector_in_meter.y() > diastanceLimit) {
+				System.out.println("ERR: you are trying to add more than the distance limit 100KM");
+				return gps;
 			}
 			// checking whether after the vector addition the point is still a valid GPS
 			// coord
@@ -97,7 +100,7 @@ public class MyCoords implements coords_converter {
 			double outPutMeterDistance = Math.sqrt(Math.pow(meterDiffVector.x(), 2) + Math.pow(meterDiffVector.y(), 2)
 					+ Math.pow(meterDiffVector.z(), 2));
 			if (outPutMeterDistance >= diastanceLimit) {
-				System.out.println("the diastnce is too big, cannot calculate it");
+				System.out.println("the diastnce is too big, cannot calculate it, distance has to be less than 100KM");
 				return Double.NaN;
 			} else
 				return outPutMeterDistance;
@@ -131,7 +134,7 @@ public class MyCoords implements coords_converter {
 			Point3D meterDiffVector = new Point3D(vector3D(gps0, gps1));
 			double outPutMeterDistance = Math.sqrt(Math.pow(meterDiffVector.x(), 2) + Math.pow(meterDiffVector.y(), 2));
 			if (outPutMeterDistance >= diastanceLimit) {
-				System.out.println("the diastnce is too big, cannot calculate it");
+				System.out.println("the diastnce is too big, cannot calculate it, distance has to be less than 100KM");
 				return Double.NaN;
 			} else
 				return outPutMeterDistance;
@@ -168,6 +171,10 @@ public class MyCoords implements coords_converter {
 			double meterLatDiff = r2mLat(radianLatDiff);
 			double meterLonDiff = r2mLon(radianLonDiff, Math.cos(Point3D.d2r(gps0.x())));
 			double meterAltDiff = gps1.z() - gps0.z();
+			if (meterAltDiff > diastanceLimit || meterLatDiff > diastanceLimit || meterLonDiff > diastanceLimit) {
+				System.out.println("the diastnce is too big, cannot calculate it");
+				return null;
+			}
 			// returning a 3d point with these wanted values
 			return new Point3D(meterLatDiff, meterLonDiff, meterAltDiff);
 		}
@@ -255,14 +262,6 @@ public class MyCoords implements coords_converter {
 	 */
 	@Override
 	public boolean isValid_GPS_Point(Point3D p) {
-		if (!(p.x() >= -90 && p.x() <= 90)) {
-			System.out.println(p.x());
-		}
-		if (!(p.y() >= -180 && p.y() <= 180)) {
-			System.out.println(p.y());
-		}
-		if (!(p.z() >= -430 && p.z() <= 8848))
-			System.out.println(p.z());
 		return ((p.x() >= -90 && p.x() <= 90) && (p.y() >= -180 && p.y() <= 180) && (p.z() >= -430 && p.z() <= 8848));
 	}
 
@@ -281,9 +280,7 @@ public class MyCoords implements coords_converter {
 	}
 
 	private double m2rLon(double meterLonInput, double lonNorm) {
-		double multiRadiusNorm = earthRadius * lonNorm;
-		meterLonInput=meterLonInput/ multiRadiusNorm;
-		return (Math.asin(meterLonInput));
+		return (Math.asin((meterLonInput / (earthRadius * lonNorm))));
 	}
 
 }

@@ -52,7 +52,7 @@ public class GpsCoord implements Geom_element {
 
 	public GpsCoord(Geom_element inputToCopy) throws InvalidPropertiesFormatException {
 		this.convertMethods = new MyCoords();
-		this.internalPoint = (Point3D)((GpsCoord) inputToCopy).getInternalPoint();
+		this.internalPoint = (Point3D) ((GpsCoord) inputToCopy).getInternalPoint();
 	}
 
 	/**
@@ -100,8 +100,8 @@ public class GpsCoord implements Geom_element {
 	 * @return 3D vector which values are the difference between both GPS
 	 *         coordinates in meters
 	 */
-	public Point3D vector3D(Point3D inPutMeterVector) {
-		return convertMethods.vector3D(this.internalPoint, inPutMeterVector);
+	public Point3D vector3D(Point3D inputGpsInternalPoint) {
+		return convertMethods.vector3D(this.internalPoint, inputGpsInternalPoint);
 	}
 
 	/**
