@@ -21,8 +21,8 @@ public class testing_Main {
 		} catch (FileNotFoundException e) {
 			System.out.println("ERR in CSV2KML, ERR: " + e.getMessage());
 		}
-		ArrayList<GIS_layer>contents=MultiCSV.readFolder("/csvFilesTest");
-		MultiCSV.folder2Kml(contents,"MultiOutput.kml");
+		GisProject contents=MultiCSV.readFolder("/csvFilesTest");
+		MultiCSV.folder2Kml(contents.getArray(),"MultiOutput.kml");
 		
 	}
 

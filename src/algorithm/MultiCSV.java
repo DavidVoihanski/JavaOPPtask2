@@ -6,6 +6,7 @@ import java.util.Iterator;
 import File_format.Csv2Kml;
 import GIS.GIS_layer;
 import GIS.GisLayer;
+import GIS.GisProject;
 import de.micromata.opengis.kml.v_2_2_0.Document;
 import de.micromata.opengis.kml.v_2_2_0.Kml;
 /**
@@ -25,8 +26,8 @@ public abstract class MultiCSV extends Csv2Kml{
      * @param directory the directory containing wanted csv files to convert
      * @return returns an arraylist of layers, each layer is a csv folder
      */
-	public static ArrayList<GIS_layer> readFolder(String directory) {
-		ArrayList<GIS_layer>layers=new ArrayList<GIS_layer>();
+	public static GisProject readFolder(String directory) {
+		GisProject layers=new GisProject();
 		Filter filter=new Filter();
 		File folder=new File(directory); 
 		File pathNames[]=folder.listFiles(filter);
@@ -52,7 +53,7 @@ public abstract class MultiCSV extends Csv2Kml{
 		writeKml(kml,outputPath);
 	}
 	//recursively going through the files in a folder and turning them to GIS_layers
-	private static void scan(int index,int size,ArrayList<GIS_layer>layers,File pathNames[]) {
+	private static void scan(int index,int size,GisProject layers,File pathNames[]) {
 		
 		GisLayer currLayer=(GisLayer)csv2Layer(pathNames[index].getPath());//converts to layer
 		layers.add(currLayer);//adds to arraylist

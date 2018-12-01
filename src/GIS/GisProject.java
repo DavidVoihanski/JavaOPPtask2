@@ -116,5 +116,8 @@ public class GisProject implements GIS_project {
 	public Meta_data get_Meta_data() {
 		return this.data;
 	}
+	public ArrayList<GIS_layer> getArray(){
+		return this.layers;
+	}
 
 }
