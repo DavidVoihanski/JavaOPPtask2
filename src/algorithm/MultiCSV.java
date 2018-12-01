@@ -4,7 +4,6 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-import com.sun.prism.paint.Color;
 
 import File_format.Csv2Kml;
 import GIS.GIS_layer;
@@ -13,8 +12,7 @@ import GIS.GisProject;
 import de.micromata.opengis.kml.v_2_2_0.Document;
 import de.micromata.opengis.kml.v_2_2_0.Folder;
 import de.micromata.opengis.kml.v_2_2_0.Kml;
-import de.micromata.opengis.kml.v_2_2_0.LabelStyle;
-import de.micromata.opengis.kml.v_2_2_0.Style;
+
 
 /**
  * This class has 2 purposes: 1: Recursively going through a folder and looking
