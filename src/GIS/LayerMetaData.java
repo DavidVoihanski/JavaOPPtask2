@@ -7,7 +7,7 @@ import Geom.Point3D;
 /**
  * this class represents the meta data of a GIS layer
  * 
- * @author Evgen&David
+ * @author Evgeny&David
  *
  */
 public class LayerMetaData implements Meta_data {

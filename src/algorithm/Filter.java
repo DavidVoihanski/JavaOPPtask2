@@ -3,7 +3,7 @@ package algorithm;
 import java.io.File;
 import java.io.FileFilter;
 /**
- * This class implements the FileFilter interface to filer files ending with .csv
+ * This class implements the FileFilter interface to filer files ending with ".csv"
  * @author David&Evegeny
  *
  */
