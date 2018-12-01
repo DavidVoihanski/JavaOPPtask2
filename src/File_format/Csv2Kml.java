@@ -10,6 +10,7 @@ import java.util.Iterator;
 
 import Coords.GpsCoord;
 import GIS.GIS_element;
+import GIS.GIS_layer;
 import GIS.GisElement;
 import GIS.GisLayer;
 import GIS.MetaData;
@@ -24,7 +25,7 @@ import de.micromata.opengis.kml.v_2_2_0.Placemark;
  * @author Evgeny&David
  *
  */
-public class Csv2Kml {
+public abstract class Csv2Kml {
 	/**
 	 * converting an CSV file which found on the input path, and creating a KML file
 	 * with all the information asked on the output path
@@ -34,10 +35,23 @@ public class Csv2Kml {
 	 * @throws FileNotFoundException if the file isn't found
 	 */
 	public static void csv2kml(String csvInputPath, String wantedKmlOutputPath) throws FileNotFoundException {
-		ArrayList<String[]> readedCsv = csvReader(csvInputPath);//"reading" the csv file
-		GisLayer geoLayer = csv2GisLayer(readedCsv);//turning it to GIS layer
-		gisLayer2KML(geoLayer, wantedKmlOutputPath);// turning the GIS layer to KML
+		//		ArrayList<String[]> readCsv = csvReader(csvInputPath);//"reading" the csv file
+		//		GisLayer geoLayer = csv2GisLayer(readCsv);//turning it to GIS layer
+		Kml kml = new Kml();
+		kml=gisLayer2KML(csv2Layer(csvInputPath),kml);// turning the GIS layer to KML
+		writeKml(kml,wantedKmlOutputPath);
 		System.out.println("done...");
+	}
+	/**
+	 * Converts a csv file to a GIS_layer
+	 * 
+	 * @param csvInputPath file to convert
+	 * @return returns a GIS_layer converted from given file
+	 */
+	public static GIS_layer csv2Layer(String csvInputPath) {
+		ArrayList<String[]> readCsv = csvReader(csvInputPath);//"reading" the csv file
+		GIS_layer geoLayer = csv2GisLayer(readCsv);//turning it to GIS layer
+		return geoLayer;
 	}
 
 	// private supporting methods:
@@ -84,8 +98,8 @@ public class Csv2Kml {
 		return layerOutput;
 	}
 
-	private static void gisLayer2KML(GisLayer certainLayer, String filePath) throws FileNotFoundException {
-		final Kml kml = new Kml();
+	private static Kml gisLayer2KML(GIS_layer certainLayer,Kml kml) throws FileNotFoundException {
+		//final Kml kml = new Kml();
 		Document doc = kml.createAndSetDocument();
 		Iterator<GIS_element> it = certainLayer.iterator();
 		StringBuilder descOfElement = new StringBuilder();
@@ -94,10 +108,11 @@ public class Csv2Kml {
 			GisElement current = (GisElement) it.next();
 			MetaData currentData = (MetaData) current.getData();
 			String[] wholeData = currentData.getDataArray();
+			descOfElement.append(certainLayer.get_Meta_data().toString()+"\n");
 			descOfElement.append("BBSSID: " + wholeData[0] + "\n");
 			descOfElement.append("Capabilities: " + wholeData[2] + "\n");
 			descOfElement.append("Timestamp: " + currentData.getUTC() + "\n");
-			descOfElement.append("date: " + wholeData[3]);
+			descOfElement.append("Data taken in: " + wholeData[3]);
 			Placemark place = doc.createAndAddPlacemark().withName(wholeData[1]).withOpen(Boolean.TRUE);
 			place.setDescription(descOfElement.toString());
 			String timeStamp = wholeData[3];
@@ -106,6 +121,9 @@ public class Csv2Kml {
 			place.createAndSetPoint().addToCoordinates(((GpsCoord) current.getGeom()).getLon(),
 					((GpsCoord) current.getGeom()).getLat(), ((GpsCoord) current.getGeom()).getAlt());
 		}
+		return kml;
+	}
+	private static void writeKml(Kml kml,String filePath) {
 		try {
 			kml.marshal(new File(filePath));
 		} catch (IOException e) {

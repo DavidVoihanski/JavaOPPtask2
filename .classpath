@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
-	<classpathentry kind="lib" path="C:/Users/evgen/eclipse-workspace/OopAssignment2-4/kmlLibrary/activation-1.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/evgen/eclipse-workspace/OopAssignment2-4/kmlLibrary/JavaAPIforKml-2.2.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/evgen/eclipse-workspace/OopAssignment2-4/kmlLibrary/jaxb-api-2.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/evgen/eclipse-workspace/OopAssignment2-4/kmlLibrary/jaxb-impl-2.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/evgen/eclipse-workspace/OopAssignment2-4/kmlLibrary/jaxb-xjc-2.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/evgen/eclipse-workspace/OopAssignment2-4/kmlLibrary/stax-api-1.0-2.jar"/>
+	<classpathentry kind="lib" path="C:/GPS/kmlLibrary/activation-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/GPS/kmlLibrary/JavaAPIforKml-2.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/GPS/kmlLibrary/jaxb-api-2.2.jar"/>
+	<classpathentry kind="lib" path="C:/GPS/kmlLibrary/jaxb-impl-2.2.jar"/>
+	<classpathentry kind="lib" path="C:/GPS/kmlLibrary/jaxb-xjc-2.2.jar"/>
+	<classpathentry kind="lib" path="C:/GPS/kmlLibrary/stax-api-1.0-2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/David/Desktop/commons-io-2.6.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
