@@ -13,6 +13,5 @@
 	<classpathentry kind="lib" path="C:/GPS/kmlLibrary/jaxb-impl-2.2.jar"/>
 	<classpathentry kind="lib" path="C:/GPS/kmlLibrary/jaxb-xjc-2.2.jar"/>
 	<classpathentry kind="lib" path="C:/GPS/kmlLibrary/stax-api-1.0-2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/David/Desktop/commons-io-2.6.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

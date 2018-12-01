@@ -35,10 +35,10 @@ public abstract class Csv2Kml {
 	 * @throws FileNotFoundException if the file isn't found
 	 */
 	public static void csv2kml(String csvInputPath, String wantedKmlOutputPath) throws FileNotFoundException {
-		//		ArrayList<String[]> readCsv = csvReader(csvInputPath);//"reading" the csv file
-		//		GisLayer geoLayer = csv2GisLayer(readCsv);//turning it to GIS layer
 		Kml kml = new Kml();
-		kml=gisLayer2KML(csv2Layer(csvInputPath),kml);// turning the GIS layer to KML
+		Document doc = kml.createAndSetDocument();
+		GIS_layer layer=csv2Layer(csvInputPath);
+		gisLayer2KML(layer,kml,doc);// turning the GIS layer to KML
 		writeKml(kml,wantedKmlOutputPath);
 		System.out.println("done...");
 	}
@@ -48,10 +48,23 @@ public abstract class Csv2Kml {
 	 * @param csvInputPath file to convert
 	 * @return returns a GIS_layer converted from given file
 	 */
-	public static GIS_layer csv2Layer(String csvInputPath) {
+	protected static GIS_layer csv2Layer(String csvInputPath) {
 		ArrayList<String[]> readCsv = csvReader(csvInputPath);//"reading" the csv file
 		GIS_layer geoLayer = csv2GisLayer(readCsv);//turning it to GIS layer
 		return geoLayer;
+	}
+	/**
+	 * Writes a premade kml to a kml file
+	 * @param kml Kml type param already containing placemarks
+	 * @param filePath wanted save path
+	 */
+	protected static void writeKml(Kml kml,String filePath) {
+		try {
+			kml.marshal(new File(filePath));
+		} catch (IOException e) {
+			System.out.println("ERR in KML MARSHAL");
+			return;
+		}
 	}
 
 	// private supporting methods:
@@ -98,9 +111,7 @@ public abstract class Csv2Kml {
 		return layerOutput;
 	}
 
-	private static Kml gisLayer2KML(GIS_layer certainLayer,Kml kml) throws FileNotFoundException {
-		//final Kml kml = new Kml();
-		Document doc = kml.createAndSetDocument();
+	protected static void gisLayer2KML(GIS_layer certainLayer,Kml kml,Document doc){
 		Iterator<GIS_element> it = certainLayer.iterator();
 		StringBuilder descOfElement = new StringBuilder();
 		while (it.hasNext()) {
@@ -121,15 +132,5 @@ public abstract class Csv2Kml {
 			place.createAndSetPoint().addToCoordinates(((GpsCoord) current.getGeom()).getLon(),
 					((GpsCoord) current.getGeom()).getLat(), ((GpsCoord) current.getGeom()).getAlt());
 		}
-		return kml;
 	}
-	private static void writeKml(Kml kml,String filePath) {
-		try {
-			kml.marshal(new File(filePath));
-		} catch (IOException e) {
-			System.out.println("ERR in KML MARSHAL");
-			return;
-		}
-	}
-
 }
