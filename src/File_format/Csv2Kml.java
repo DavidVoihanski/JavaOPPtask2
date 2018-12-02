@@ -45,6 +45,7 @@ public abstract class Csv2Kml {
 		System.out.println("done...");
 	}
 
+//protected methods
 	/**
 	 * Converts a csv file to a GIS_layer
 	 * 
@@ -58,7 +59,7 @@ public abstract class Csv2Kml {
 	}
 
 	/**
-	 * Writes a premade kml to a kml file
+	 * Writes a pre-made kml to a kml file
 	 * 
 	 * @param kml      Kml type param already containing placemarks
 	 * @param filePath wanted save path
@@ -72,6 +73,33 @@ public abstract class Csv2Kml {
 		}
 	}
 
+//this method converts a GIS layer to KML file
+	protected static void gisLayer2KML(GIS_layer certainLayer, Kml kml, Document doc, Folder folder) {
+		Iterator<GIS_element> it = certainLayer.iterator();
+		StringBuilder descOfElement = new StringBuilder();
+		// iterating over all of the layers(amount can be between 1 to inf) we got
+		while (it.hasNext()) {
+			descOfElement = new StringBuilder();
+			GisElement current = (GisElement) it.next();// current element we "stand" on
+			MetaData currentData = (MetaData) current.getData();// this elements metaData
+			String[] wholeData = currentData.getDataArray();
+			// creating a placemark within the folder (each layer is a folder)
+			Placemark placeMark = folder.createAndAddPlacemark();
+			placeMark.withName(wholeData[1]);// setting elements name
+			// creating the description of the placemark using elements string metadata
+			descOfElement.append("\n" + "BBSSID: " + wholeData[0] + "\n");
+			descOfElement.append("Capabilities: " + wholeData[2] + "\n");
+			descOfElement.append("Timestamp: " + currentData.getUTC() + "\n");
+			descOfElement.append("Data taken in: " + wholeData[3] + "\n");
+			placeMark.setDescription(descOfElement.toString());// setting the description to be shown in the KML file
+			// creating setting the timestamp
+			String timeStamp = wholeData[3];
+			timeStamp = timeStamp.replace(' ', 'T');// converting the time stamp to right figure
+			placeMark.createAndSetTimeStamp().withWhen(timeStamp);
+			placeMark.createAndSetPoint().addToCoordinates(((GpsCoord) current.getGeom()).getLon(),
+					((GpsCoord) current.getGeom()).getLat(), ((GpsCoord) current.getGeom()).getAlt());
+		}
+	}
 	// private supporting methods:
 
 	// this method reads a CSV file from certain path
@@ -80,7 +108,7 @@ public abstract class Csv2Kml {
 																	// have an ArrayList of String arrays to hold the
 																	// whole file
 		BufferedReader br = null;
-		//setting the buffered reader 
+		// setting the buffered reader
 		try {
 			br = new BufferedReader(new FileReader(filePath));
 		} catch (FileNotFoundException e) {
@@ -89,7 +117,8 @@ public abstract class Csv2Kml {
 		}
 		String line = "";
 		String csvSplitBy = ",";
-		//every CSV value is an array element, every array is a CSV line, and the whole file is an arrayList 
+		// every CSV value is an array element, every array is a CSV line, and the whole
+		// file is an arrayList
 		try {
 			while ((line = br.readLine()) != null) {
 				readedInfoOutPut.add(line.split(csvSplitBy));
@@ -124,31 +153,4 @@ public abstract class Csv2Kml {
 		return layerOutput;
 	}
 
-//this method converts a GIS layer to KML file
-	protected static void gisLayer2KML(GIS_layer certainLayer, Kml kml, Document doc, Folder folder) {
-		Iterator<GIS_element> it = certainLayer.iterator();
-		StringBuilder descOfElement = new StringBuilder();
-		// iterating over all of the layers(amount can be between 1 to inf) we got
-		while (it.hasNext()) {
-			descOfElement = new StringBuilder();
-			GisElement current = (GisElement) it.next();// current element we "stand" on
-			MetaData currentData = (MetaData) current.getData();// this elements metaData
-			String[] wholeData = currentData.getDataArray();
-			// creating a placemark within the folder (each layer is a folder)
-			Placemark placeMark = folder.createAndAddPlacemark();
-			placeMark.withName(wholeData[1]);// setting elements name
-			// creating the description of the placemark using elements string metadata
-			descOfElement.append("\n" + "BBSSID: " + wholeData[0] + "\n");
-			descOfElement.append("Capabilities: " + wholeData[2] + "\n");
-			descOfElement.append("Timestamp: " + currentData.getUTC() + "\n");
-			descOfElement.append("Data taken in: " + wholeData[3] + "\n");
-			placeMark.setDescription(descOfElement.toString());// setting the description to be shown in the KML file
-			// creating setting the timestamp
-			String timeStamp = wholeData[3];
-			timeStamp = timeStamp.replace(' ', 'T');// converting the time stamp to right figure
-			placeMark.createAndSetTimeStamp().withWhen(timeStamp);
-			placeMark.createAndSetPoint().addToCoordinates(((GpsCoord) current.getGeom()).getLon(),
-					((GpsCoord) current.getGeom()).getLat(), ((GpsCoord) current.getGeom()).getAlt());
-		}
-	}
 }

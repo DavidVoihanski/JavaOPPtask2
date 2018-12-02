@@ -44,8 +44,8 @@ public class MetaData implements Meta_data {
 	@Override
 	public long getUTC() {
 		int[] dataInInteger = splitterForDateTime(this.data[3]);
-		Date outPut = new Date();
-		return outPut.UTC(dataInInteger[0] - 1900, dataInInteger[1] - 1, dataInInteger[2], dataInInteger[3],
+		Date outPut = null;
+		return outPut.UTC(dataInInteger[2] - 1900, dataInInteger[1] - 1, dataInInteger[1], dataInInteger[3],
 				dataInInteger[4], 0);
 	}
 
@@ -78,7 +78,7 @@ public class MetaData implements Meta_data {
 		String splitBy = " ";
 		String[] timeAndDate = timeData.split(splitBy);
 		int[] outPut = new int[5];
-		splitBy = "-";
+		splitBy = "/";
 		String[] date = timeAndDate[0].split(splitBy);
 		splitBy = ":";
 		String[] time = timeAndDate[1].split(splitBy);
