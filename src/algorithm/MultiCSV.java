@@ -40,8 +40,10 @@ public abstract class MultiCSV extends Csv2Kml {
 		File pathNames[] = folder.listFiles(filter);
 		for (int i = 0; i < pathNames.length; i++) {
 			if(pathNames[i].isDirectory()) {
-				GisProject directoryWithinDirectory=readFolder(pathNames[i].getPath());
+				//takes the project returned from this call and adds it to 'layers'
+				GisProject directoryWithinDirectory=readFolder(pathNames[i].getPath()); 
 				layers.addAll(directoryWithinDirectory);
+				pathNames[i]=null;	//this path should never be checked again
 			}
 		}
 		int index = 0;
@@ -75,9 +77,10 @@ public abstract class MultiCSV extends Csv2Kml {
 	// recursively going through the files in a folder and turning them to
 	// GIS_layers
 	private static void scan(int index, int size, GisProject layers, File pathNames[]) {
-
-		GisLayer currLayer = (GisLayer) csv2Layer(pathNames[index].getPath());// converts to layer
-		layers.add(currLayer);// adds to arraylist
+		if(pathNames[index]!=null) {	
+			GisLayer currLayer = (GisLayer) csv2Layer(pathNames[index].getPath());// converts to layer
+			layers.add(currLayer);// adds to arraylist
+		}
 		index++;
 		if (index >= size)
 			return;
