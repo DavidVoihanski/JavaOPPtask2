@@ -59,14 +59,14 @@ class MyCoordsTest {
 			fail("add method failed #1");
 		}
 		try {
-			gpsCoord = new GpsCoord(32.103315, 35.209039, 670);
+			gpsCoord = new GpsCoord(82.103315, 65.209039, 670);
 		} catch (InvalidPropertiesFormatException e) {
 			e.printStackTrace();
 			fail("gps coord constructor failed");
 		}
-		meterVector = new Point3D(743.3380829, 938.248908, 70);// based on the excel file with these two points
+		meterVector = new Point3D(337.6989921,-58.26557696, 70);// based on the excel file with these two points
 		try {
-			expected = new GpsCoord(32.11, 35.219, 740);
+			expected = new GpsCoord(82.106352, 65.205225, 740);
 		} catch (InvalidPropertiesFormatException e) {
 			e.printStackTrace();
 			fail("gps coord constructor failed");

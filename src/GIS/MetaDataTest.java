@@ -25,9 +25,11 @@ class MetaDataTest {
 //testing the get UTC method
 	@Test
 	void testGetUTC() throws InvalidPropertiesFormatException {
+		//creating a meta data instance
 		String[] metaData = { "14:ae:db:58:73:75", "love", "[WPA2-PSK-CCMP][ESS]", "01/12/2017 10:49", "1", "-78", "4",
 				"WIFI" };
 		MetaData testData = new MetaData(new GpsCoord(0, 0, 0), metaData);
+		//comparing the output to expected output
 		if (testData.getUTC() != 1513075740000L)
 			fail("getUTC method wont return a corrrect value");
 	}

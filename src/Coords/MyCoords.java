@@ -35,7 +35,6 @@ public class MyCoords implements coords_converter {
 		// the calculation
 		if (isValid_GPS_Point(gps)
 				&& (local_vector_in_meter.x() < diastanceLimit && local_vector_in_meter.y() < diastanceLimit)) {
-			// meters and from meters back to radian
 			// converting the decimal degrees to radian
 			double radianLat = Point3D.d2r(gps.x());
 			double radianLon = Point3D.d2r(gps.y());
@@ -48,7 +47,7 @@ public class MyCoords implements coords_converter {
 			double gps1MeterAlt = gps.z() + local_vector_in_meter.z();
 			// converting the meter back to radian
 			double radianGps1Lat = m2rLat(gps1MeterLat);
-			double radianGps1Lon = m2rLon(gps1MeterLon, 1);
+			double radianGps1Lon = m2rLon(gps1MeterLon,1);
 			// converting the radian back to decimal degrees
 			double gps1Lat = Point3D.r2d(radianGps1Lat);
 			double gps1Lon = Point3D.r2d(radianGps1Lon);
@@ -280,7 +279,7 @@ public class MyCoords implements coords_converter {
 	}
 
 	private double m2rLon(double meterLonInput, double lonNorm) {
-		return (Math.asin((meterLonInput / (earthRadius * lonNorm))));
+		return (Math.asin((meterLonInput/earthRadius*lonNorm)));
 	}
 
 }
