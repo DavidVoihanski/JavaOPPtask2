@@ -1,0 +1,5173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:ns2="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0">
+    <ns2:Document>
+        <ns2:Folder>
+            <ns2:name>GIS layer num:1</ns2:name>
+            <ns2:styleUrl>green</ns2:styleUrl>
+            <ns2:Placemark>
+                <ns2:name>Efrat</ns2:name>
+                <ns2:description>
+BBSSID: 40:65:a3:35:4c:c4
+Capabilities: [WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][ESS]
+Timestamp: 1513075740000
+Data taken in: 01/12/2017 10:49
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:49</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81446402,32.17218268,13.65040889</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Volvo247</ns2:name>
+                <ns2:description>
+BBSSID: 08:97:58:32:69:c6
+Capabilities: [WPA2-PSK-CCMP][WPS][ESS]
+Timestamp: 1513075740000
+Data taken in: 01/12/2017 10:49
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:49</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.8144483,32.17220926,15.37643594</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>love</ns2:name>
+                <ns2:description>
+BBSSID: 14:ae:db:58:73:75
+Capabilities: [WPA2-PSK-CCMP][ESS]
+Timestamp: 1513075740000
+Data taken in: 01/12/2017 10:49
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:49</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81436692,32.17225088,25.86914313</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Chakir</ns2:name>
+                <ns2:description>
+BBSSID: 00:12:2a:35:c8:7c
+Capabilities: [WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][ESS][BLE]
+Timestamp: 1513075740000
+Data taken in: 01/12/2017 10:49
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:49</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.8140369,32.17228483,30.59005383</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Orit</ns2:name>
+                <ns2:description>
+BBSSID: c4:a8:1d:12:7d:4c
+Capabilities: [WPA2-PSK-CCMP][ESS][BLE]
+Timestamp: 1513075740000
+Data taken in: 01/12/2017 10:49
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:49</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81387686,32.17230734,30.93962047</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Mevohot_1</ns2:name>
+                <ns2:description>
+BBSSID: 20:0c:c8:1b:a2:48
+Capabilities: [WPA2-PSK-CCMP][WPS][ESS][BLE]
+Timestamp: 1513075740000
+Data taken in: 01/12/2017 10:49
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:49</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81336125,32.17238269,31.34185373</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Partner</ns2:name>
+                <ns2:description>
+BBSSID: 42501_13111_7943940
+Capabilities: UNKNOWN;il
+Timestamp: 1513075800000
+Data taken in: 01/12/2017 10:50
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:50</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81308168,32.17241357,31.47562003</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>DIR-825-4f83</ns2:name>
+                <ns2:description>
+BBSSID: 80:26:89:0d:4f:84
+Capabilities: [WPA2-PSK-CCMP][WPS][ESS]
+Timestamp: 1513075800000
+Data taken in: 01/12/2017 10:50
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:50</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81291471,32.17244003,31.60427366</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>DIR-825-4f83</ns2:name>
+                <ns2:description>
+BBSSID: 80:26:89:0d:4f:84
+Capabilities: [WPA2-PSK-CCMP][WPS][ESS]
+Timestamp: 1513075800000
+Data taken in: 01/12/2017 10:50
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:50</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81291471,32.17244003,31.60427366</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Partner</ns2:name>
+                <ns2:description>
+BBSSID: 42501_13111_7943940
+Capabilities: UNKNOWN;il
+Timestamp: 1513075800000
+Data taken in: 01/12/2017 10:50
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:50</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81291471,32.17244003,31.60427366</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>NIPPON_3687</ns2:name>
+                <ns2:description>
+BBSSID: 08:97:58:32:d2:98
+Capabilities: [WPA-PSK-CCMP][WPS][ESS]
+Timestamp: 1513075800000
+Data taken in: 01/12/2017 10:50
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:50</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81269385,32.17248382,31.65514378</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>NIPPON_3687</ns2:name>
+                <ns2:description>
+BBSSID: 08:97:58:32:d2:98
+Capabilities: [WPA-PSK-CCMP][WPS][ESS]
+Timestamp: 1513075800000
+Data taken in: 01/12/2017 10:50
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:50</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81247912,32.17252252,31.6513231</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Hotbox</ns2:name>
+                <ns2:description>
+BBSSID: 00:78:9e:f9:e8:58
+Capabilities: [WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][ESS]
+Timestamp: 1513075800000
+Data taken in: 01/12/2017 10:50
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:50</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81247912,32.17252252,31.6513231</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>varda</ns2:name>
+                <ns2:description>
+BBSSID: c4:12:f5:85:27:c2
+Capabilities: [WPA2-PSK-CCMP][ESS][BLE]
+Timestamp: 1513075800000
+Data taken in: 01/12/2017 10:50
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:50</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81226897,32.17254565,31.61801039</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Helen.</ns2:name>
+                <ns2:description>
+BBSSID: a0:ab:1b:57:cd:42
+Capabilities: [WPA2-PSK-CCMP][ESS][BLE]
+Timestamp: 1513075800000
+Data taken in: 01/12/2017 10:50
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:50</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81204236,32.17229409,31.56486002</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Partner</ns2:name>
+                <ns2:description>
+BBSSID: 42501_13111_7943940
+Capabilities: UNKNOWN;il
+Timestamp: 1513075800000
+Data taken in: 01/12/2017 10:50
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:50</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.8119042,32.17191743,31.36722975</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ben Ami_2.4</ns2:name>
+                <ns2:description>
+BBSSID: c4:04:15:60:6a:b5
+Capabilities: [WPA2-PSK-CCMP][WPS][ESS][BLE]
+Timestamp: 1513075800000
+Data taken in: 01/12/2017 10:50
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:50</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81184058,32.17172819,31.30445033</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>varda</ns2:name>
+                <ns2:description>
+BBSSID: c4:12:f5:85:27:c2
+Capabilities: [WPA2-PSK-CCMP][ESS][BLE]
+Timestamp: 1513075800000
+Data taken in: 01/12/2017 10:50
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:50</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.8117682,32.17154067,31.18679723</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>ronkla2_5</ns2:name>
+                <ns2:description>
+BBSSID: 3c:1e:04:07:2a:ff
+Capabilities: [WPA2-PSK-CCMP][ESS][BLE]
+Timestamp: 1513075800000
+Data taken in: 01/12/2017 10:50
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:50</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81168874,32.17135803,31.09052557</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>mika1</ns2:name>
+                <ns2:description>
+BBSSID: c4:12:f5:fb:c0:3e
+Capabilities: [WPA2-PSK-CCMP][ESS][BLE]
+Timestamp: 1513075800000
+Data taken in: 01/12/2017 10:50
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:50</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81160095,32.17117721,30.92205515</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Partner</ns2:name>
+                <ns2:description>
+BBSSID: 42501_13111_7943940
+Capabilities: UNKNOWN;il
+Timestamp: 1513075800000
+Data taken in: 01/12/2017 10:50
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:50</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81140614,32.17079804,30.47161242</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Gana7_2GExt</ns2:name>
+                <ns2:description>
+BBSSID: 64:d9:54:e4:95:37
+Capabilities: [WPA2-PSK-CCMP][WPS][ESS]
+Timestamp: 1513075800000
+Data taken in: 01/12/2017 10:50
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:50</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81130192,32.17061251,30.49189809</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Guymic</ns2:name>
+                <ns2:description>
+BBSSID: 14:ae:db:b7:99:2d
+Capabilities: [WPA2-PSK-CCMP][ESS]
+Timestamp: 1513075800000
+Data taken in: 01/12/2017 10:50
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:50</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81120541,32.17042201,30.64808759</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>stephane</ns2:name>
+                <ns2:description>
+BBSSID: 00:24:2b:cf:13:21
+Capabilities: [ESS]
+Timestamp: 1513075800000
+Data taken in: 01/12/2017 10:50
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:50</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81109834,32.17023774,30.62847276</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>devolo-0f4</ns2:name>
+                <ns2:description>
+BBSSID: 30:d3:2d:37:20:f4
+Capabilities: [WPA2-PSK-CCMP][WPS][ESS]
+Timestamp: 1513075800000
+Data taken in: 01/12/2017 10:50
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:50</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81099874,32.17005339,30.62659342</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>HOTBOX-4D4E</ns2:name>
+                <ns2:description>
+BBSSID: 00:78:9e:fb:1e:09
+Capabilities: [WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][ESS]
+Timestamp: 1513075800000
+Data taken in: 01/12/2017 10:50
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:50</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81099874,32.17005339,30.62659342</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Neeman2.4</ns2:name>
+                <ns2:description>
+BBSSID: 20:0c:c8:1d:c8:2b
+Capabilities: [WPA2-PSK-CCMP][WPS][ESS][BLE]
+Timestamp: 1513075800000
+Data taken in: 01/12/2017 10:50
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:50</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81092582,32.16988411,30.44607201</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>oved-main_2EX</ns2:name>
+                <ns2:description>
+BBSSID: 74:da:38:97:66:9d
+Capabilities: [WPA2-PSK-CCMP][WPS][ESS]
+Timestamp: 1513075800000
+Data taken in: 01/12/2017 10:50
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:50</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81092582,32.16988411,30.44607201</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>oved-main</ns2:name>
+                <ns2:description>
+BBSSID: 74:da:39:54:b8:1d
+Capabilities: [WPA2-PSK-CCMP][ESS]
+Timestamp: 1513075860000
+Data taken in: 01/12/2017 10:51
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:51</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81085805,32.16972842,30.47536044</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Partner</ns2:name>
+                <ns2:description>
+BBSSID: 42501_13111_7943940
+Capabilities: UNKNOWN;il
+Timestamp: 1513075860000
+Data taken in: 01/12/2017 10:51
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:51</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81085805,32.16972842,30.47536044</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Lili</ns2:name>
+                <ns2:description>
+BBSSID: c4:12:f5:f9:5c:7c
+Capabilities: [WPA2-PSK-CCMP][ESS][BLE]
+Timestamp: 1513075860000
+Data taken in: 01/12/2017 10:51
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:51</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81077185,32.16949135,30.41870876</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Liliup</ns2:name>
+                <ns2:description>
+BBSSID: 74:da:38:c3:12:45
+Capabilities: [WPA2-PSK-CCMP][ESS]
+Timestamp: 1513075860000
+Data taken in: 01/12/2017 10:51
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:51</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81077185,32.16949135,30.41870876</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>ELCHARAR_2.4</ns2:name>
+                <ns2:description>
+BBSSID: 20:0c:c8:0f:21:93
+Capabilities: [WPA2-PSK-CCMP][WPS][ESS][BLE]
+Timestamp: 1513075860000
+Data taken in: 01/12/2017 10:51
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:51</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81077185,32.16949135,30.41870876</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Alpha125</ns2:name>
+                <ns2:description>
+BBSSID: 10:fe:ed:74:fc:46
+Capabilities: [WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]
+Timestamp: 1513075860000
+Data taken in: 01/12/2017 10:51
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:51</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81077185,32.16949135,30.41870876</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Bezeq Free T00C36</ns2:name>
+                <ns2:description>
+BBSSID: 5a:0c:c8:0f:21:90
+Capabilities: [ESS][BLE]
+Timestamp: 1513075860000
+Data taken in: 01/12/2017 10:51
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:51</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81077185,32.16949135,30.41870876</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>dlink-A09C</ns2:name>
+                <ns2:description>
+BBSSID: ac:f1:df:76:a0:9c
+Capabilities: [WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]
+Timestamp: 1513075860000
+Data taken in: 01/12/2017 10:51
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:51</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81074036,32.1693985,30.41755519</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>edimax_5G_A9241C</ns2:name>
+                <ns2:description>
+BBSSID: 74:da:38:a9:24:1c
+Capabilities: [WPA2-PSK-CCMP][WPS][ESS]
+Timestamp: 1513075860000
+Data taken in: 01/12/2017 10:51
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:51</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81072496,32.16935941,30.40808363</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>spielman</ns2:name>
+                <ns2:description>
+BBSSID: 7c:b7:33:2b:c4:52
+Capabilities: [WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][ESS][BLE]
+Timestamp: 1513075860000
+Data taken in: 01/12/2017 10:51
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:51</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81072496,32.16935941,30.41027705</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>forestisthebest</ns2:name>
+                <ns2:description>
+BBSSID: c8:d7:19:da:03:16
+Capabilities: [WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]
+Timestamp: 1513075860000
+Data taken in: 01/12/2017 10:51
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:51</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81072496,32.16935941,30.40255872</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>evanson</ns2:name>
+                <ns2:description>
+BBSSID: 7c:03:4c:fe:f6:68
+Capabilities: [WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][ESS]
+Timestamp: 1513075860000
+Data taken in: 01/12/2017 10:51
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:51</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81072496,32.16935941,30.28296495</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>KaymeraDev</ns2:name>
+                <ns2:description>
+BBSSID: 00:f6:63:15:58:81
+Capabilities: [WPA2-PSK-CCMP][ESS][BLE]
+Timestamp: 1513075980000
+Data taken in: 01/12/2017 10:53
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:53</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81072496,32.16935941,29.81077432</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>KaymeraDev</ns2:name>
+                <ns2:description>
+BBSSID: 00:f6:63:15:58:81
+Capabilities: [WPA2-PSK-CCMP][ESS][BLE]
+Timestamp: 1513075980000
+Data taken in: 01/12/2017 10:53
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:53</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81072496,32.16935941,29.54843195</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>spielman</ns2:name>
+                <ns2:description>
+BBSSID: 7c:b7:33:2b:c4:52
+Capabilities: [WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][ESS][BLE]
+Timestamp: 1513075980000
+Data taken in: 01/12/2017 10:53
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:53</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81072496,32.16935941,29.5264041</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>evanson</ns2:name>
+                <ns2:description>
+BBSSID: 7c:03:4c:fe:f6:68
+Capabilities: [WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][ESS]
+Timestamp: 1513076040000
+Data taken in: 01/12/2017 10:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81072496,32.16935941,29.37835116</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>BezeqNGN_001489_2.4GHz_1</ns2:name>
+                <ns2:description>
+BBSSID: c0:a0:bb:cb:59:5b
+Capabilities: [ESS][BLE]
+Timestamp: 1513076040000
+Data taken in: 01/12/2017 10:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81072496,32.16935941,29.32611198</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>oved-main</ns2:name>
+                <ns2:description>
+BBSSID: 74:da:39:54:b8:1d
+Capabilities: [WPA2-PSK-CCMP][ESS]
+Timestamp: 1513076040000
+Data taken in: 01/12/2017 10:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81072496,32.16935941,29.26677254</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Partner</ns2:name>
+                <ns2:description>
+BBSSID: 42501_13111_7943948
+Capabilities: UNKNOWN;il
+Timestamp: 1513076100000
+Data taken in: 01/12/2017 10:55
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:55</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81072496,32.16935941,29.15701324</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>spielman</ns2:name>
+                <ns2:description>
+BBSSID: f4:f2:6d:34:56:54
+Capabilities: [WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]
+Timestamp: 1513076100000
+Data taken in: 01/12/2017 10:55
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:55</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81068175,32.16921231,28.88632121</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Jamcanup</ns2:name>
+                <ns2:description>
+BBSSID: 74:da:38:c3:0d:6b
+Capabilities: [WPA2-PSK-CCMP][WPS][ESS]
+Timestamp: 1513076100000
+Data taken in: 01/12/2017 10:55
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:55</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81066503,32.16917019,28.81036798</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Jamcandown</ns2:name>
+                <ns2:description>
+BBSSID: 74:da:38:b6:f6:c9
+Capabilities: [WPA2-PSK-CCMP][WPS][ESS]
+Timestamp: 1513076100000
+Data taken in: 01/12/2017 10:55
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:55</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81066503,32.16917019,28.81036798</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>edimax_2.4G_ruty</ns2:name>
+                <ns2:description>
+BBSSID: 74:da:38:d3:bb:81
+Capabilities: [WPA2-PSK-CCMP][WPS][ESS]
+Timestamp: 1513076100000
+Data taken in: 01/12/2017 10:55
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:55</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81066503,32.16917019,28.77355504</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>HP-Print-C1-Deskjet 4640 series</ns2:name>
+                <ns2:description>
+BBSSID: 28:80:23:f6:e0:c1
+Capabilities: [WPA2-PSK-CCMP][ESS]
+Timestamp: 1513076100000
+Data taken in: 01/12/2017 10:55
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:55</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81066503,32.16917019,28.77355504</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>HP-Print-C1-Deskjet 4640 series</ns2:name>
+                <ns2:description>
+BBSSID: 28:80:23:f6:e0:c1
+Capabilities: [WPA2-PSK-CCMP][ESS]
+Timestamp: 1513076160000
+Data taken in: 01/12/2017 10:56
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:56</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81061952,32.16901232,28.06850525</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>iFOREX</ns2:name>
+                <ns2:description>
+BBSSID: f8:d1:11:b1:92:93
+Capabilities: [WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP-preauth][ESS]
+Timestamp: 1513076160000
+Data taken in: 01/12/2017 10:56
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:56</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81057059,32.16888141,27.56438271</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>INGENEO</ns2:name>
+                <ns2:description>
+BBSSID: cc:b2:55:e8:4c:e6
+Capabilities: [WPA2-PSK-CCMP+TKIP][ESS]
+Timestamp: 1513076220000
+Data taken in: 01/12/2017 10:57
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:57</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81061687,32.16878254,27.49950646</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>DIRECT-a8-HP M477 LaserJet</ns2:name>
+                <ns2:description>
+BBSSID: aa:6b:ad:04:c6:a8
+Capabilities: [WPA2-PSK-CCMP][WPS][ESS]
+Timestamp: 1513076220000
+Data taken in: 01/12/2017 10:57
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:57</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81061687,32.16878254,27.49950646</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Candan</ns2:name>
+                <ns2:description>
+BBSSID: c0:ff:d4:7b:82:30
+Capabilities: [ESS][BLE]
+Timestamp: 1513076220000
+Data taken in: 01/12/2017 10:57
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:57</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81061687,32.16878254,27.49950646</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>LRWN</ns2:name>
+                <ns2:description>
+BBSSID: ec:8c:a2:09:dd:48
+Capabilities: [WPA2-PSK-CCMP][ESS][BLE]
+Timestamp: 1513076220000
+Data taken in: 01/12/2017 10:57
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:57</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81078259,32.16875023,27.14415548</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>HOTBOX111</ns2:name>
+                <ns2:description>
+BBSSID: c0:ac:54:f6:ae:5e
+Capabilities: [WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][ESS]
+Timestamp: 1513076220000
+Data taken in: 01/12/2017 10:57
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:57</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.8112991,32.16875525,26.89518462</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>LRWN</ns2:name>
+                <ns2:description>
+BBSSID: ec:8c:a2:09:dd:48
+Capabilities: [WPA2-PSK-CCMP][ESS][BLE]
+Timestamp: 1513076220000
+Data taken in: 01/12/2017 10:57
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:57</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81154567,32.16878953,26.88545622</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>LRWN</ns2:name>
+                <ns2:description>
+BBSSID: ec:8c:a2:09:dd:48
+Capabilities: [WPA2-PSK-CCMP][ESS][BLE]
+Timestamp: 1513076220000
+Data taken in: 01/12/2017 10:57
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:57</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81174537,32.1688377,26.96056003</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>  InnovationEndeavors</ns2:name>
+                <ns2:description>
+BBSSID: 74:da:38:a9:1c:df
+Capabilities: [WPA2-PSK-CCMP][ESS]
+Timestamp: 1513076220000
+Data taken in: 01/12/2017 10:57
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:57</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81174537,32.1688377,26.96056003</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>HOTFiber-400D</ns2:name>
+                <ns2:description>
+BBSSID: b4:ee:b4:36:dd:b9
+Capabilities: [WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][ESS][BLE]
+Timestamp: 1513076220000
+Data taken in: 01/12/2017 10:57
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:57</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81174537,32.1688377,26.96056003</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>LRWN</ns2:name>
+                <ns2:description>
+BBSSID: 0c:f4:d5:29:a2:9c
+Capabilities: [WPA2-PSK-CCMP][ESS][BLE]
+Timestamp: 1513076220000
+Data taken in: 01/12/2017 10:57
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:57</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.8118332,32.16889806,27.05751994</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Talfamily</ns2:name>
+                <ns2:description>
+BBSSID: e0:ce:c3:86:a7:9e
+Capabilities: [WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][ESS][BLE]
+Timestamp: 1513076220000
+Data taken in: 01/12/2017 10:57
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:57</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.8118332,32.16889806,27.05751994</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>HOTBOX-8156</ns2:name>
+                <ns2:description>
+BBSSID: b4:ee:b4:a7:81:5c
+Capabilities: [WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][ESS][BLE]
+Timestamp: 1513076220000
+Data taken in: 01/12/2017 10:57
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:57</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81193255,32.16909113,27.16529272</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Partner</ns2:name>
+                <ns2:description>
+BBSSID: 42501_13111_7943940
+Capabilities: UNKNOWN;il
+Timestamp: 1513076220000
+Data taken in: 01/12/2017 10:57
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:57</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81193255,32.16909113,27.16529272</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Fuck Off Yourself</ns2:name>
+                <ns2:description>
+BBSSID: 16:ae:db:c1:ae:55
+Capabilities: [WPA2-PSK-CCMP][WPS][ESS]
+Timestamp: 1513076220000
+Data taken in: 01/12/2017 10:57
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:57</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81201045,32.16927107,27.21999505</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Fuck Off ext</ns2:name>
+                <ns2:description>
+BBSSID: a4:2b:b0:e0:3a:01
+Capabilities: [WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]
+Timestamp: 1513076220000
+Data taken in: 01/12/2017 10:57
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:57</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81201045,32.16927107,27.21999505</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Mheta_AP</ns2:name>
+                <ns2:description>
+BBSSID: 86:2a:a8:eb:a9:60
+Capabilities: [WPA2-PSK-CCMP][ESS]
+Timestamp: 1513076220000
+Data taken in: 01/12/2017 10:57
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:57</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81201045,32.16927107,27.21999505</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>ELCHARAR_2.4</ns2:name>
+                <ns2:description>
+BBSSID: 20:0c:c8:0f:21:93
+Capabilities: [WPA2-PSK-CCMP][WPS][ESS][BLE]
+Timestamp: 1513076220000
+Data taken in: 01/12/2017 10:57
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:57</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81208526,32.16943683,27.28688923</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Bezeq Free T00C36</ns2:name>
+                <ns2:description>
+BBSSID: 5a:0c:c8:0f:21:90
+Capabilities: [ESS][BLE]
+Timestamp: 1513076220000
+Data taken in: 01/12/2017 10:57
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:57</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81208526,32.16943683,27.28688923</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Partner</ns2:name>
+                <ns2:description>
+BBSSID: 42501_13111_7943940
+Capabilities: UNKNOWN;il
+Timestamp: 1513076220000
+Data taken in: 01/12/2017 10:57
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:57</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81303395,32.1695732,27.28515093</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>nina</ns2:name>
+                <ns2:description>
+BBSSID: 20:0c:c8:2b:2a:14
+Capabilities: [WPA2-PSK-CCMP][WPS][ESS]
+Timestamp: 1513076220000
+Data taken in: 01/12/2017 10:57
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:57</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.8132389,32.16955478,27.21083045</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>hilda</ns2:name>
+                <ns2:description>
+BBSSID: 00:30:4f:91:36:07
+Capabilities: [WPA2-PSK-CCMP][ESS]
+Timestamp: 1513076220000
+Data taken in: 01/12/2017 10:57
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:57</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81340832,32.16957209,27.26150168</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>DIRECT-29-HP OfficeJet Pro 8710</ns2:name>
+                <ns2:description>
+BBSSID: ec:8e:b5:05:57:19
+Capabilities: [WPA2-PSK-CCMP][WPS][ESS]
+Timestamp: 1513076220000
+Data taken in: 01/12/2017 10:57
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:57</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81340832,32.16957209,27.26150168</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Candan</ns2:name>
+                <ns2:description>
+BBSSID: c0:ff:d4:7b:82:30
+Capabilities: [ESS][BLE]
+Timestamp: 1513076220000
+Data taken in: 01/12/2017 10:57
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:57</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81347188,32.16972125,27.70335868</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>dlink</ns2:name>
+                <ns2:description>
+BBSSID: 00:24:01:18:99:57
+Capabilities: [WPA-PSK-TKIP][WPS][ESS]
+Timestamp: 1513076280000
+Data taken in: 01/12/2017 10:58
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:58</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81351418,32.17010133,29.07004588</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>orange</ns2:name>
+                <ns2:description>
+BBSSID: 00:21:04:e7:95:da
+Capabilities: [WEP][ESS]
+Timestamp: 1513076280000
+Data taken in: 01/12/2017 10:58
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:58</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81351418,32.17010133,29.07004588</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Bezeq Free</ns2:name>
+                <ns2:description>
+BBSSID: 62:19:8f:46:9f:bf
+Capabilities: [ESS]
+Timestamp: 1513076280000
+Data taken in: 01/12/2017 10:58
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:58</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81351418,32.17010133,29.07004588</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Partner</ns2:name>
+                <ns2:description>
+BBSSID: 42501_13111_7943940
+Capabilities: UNKNOWN;il
+Timestamp: 1513076280000
+Data taken in: 01/12/2017 10:58
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:58</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81351418,32.17010133,29.07004588</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>orange</ns2:name>
+                <ns2:description>
+BBSSID: 00:21:04:e7:95:da
+Capabilities: [WEP][ESS]
+Timestamp: 1513076280000
+Data taken in: 01/12/2017 10:58
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:58</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81353708,32.17025407,29.46734906</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>HOTBOX-F028</ns2:name>
+                <ns2:description>
+BBSSID: 18:1e:78:86:03:15
+Capabilities: [WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][ESS]
+Timestamp: 1513076280000
+Data taken in: 01/12/2017 10:58
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:58</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81356388,32.17042884,29.62614995</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>HOTBOX-F028</ns2:name>
+                <ns2:description>
+BBSSID: 00:78:9e:fa:6f:c3
+Capabilities: [WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][ESS]
+Timestamp: 1513076280000
+Data taken in: 01/12/2017 10:58
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:58</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81356388,32.17042884,29.62614995</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Partner</ns2:name>
+                <ns2:description>
+BBSSID: 42501_13111_7943948
+Capabilities: UNKNOWN;il
+Timestamp: 1513076280000
+Data taken in: 01/12/2017 10:58
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:58</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81356388,32.17042884,29.62614995</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>amnon</ns2:name>
+                <ns2:description>
+BBSSID: c0:ac:54:f8:6c:8a
+Capabilities: [WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][ESS]
+Timestamp: 1513076280000
+Data taken in: 01/12/2017 10:58
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:58</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81359507,32.1706183,29.5231819</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Is</ns2:name>
+                <ns2:description>
+BBSSID: 16:0c:c3:ee:27:39
+Capabilities: [WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]
+Timestamp: 1513076280000
+Data taken in: 01/12/2017 10:58
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:58</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81359507,32.1706183,29.5231819</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>My_Internet</ns2:name>
+                <ns2:description>
+BBSSID: fc:75:16:2e:5a:47
+Capabilities: [WPA-PSK-CCMP+TKIP][ESS]
+Timestamp: 1513076280000
+Data taken in: 01/12/2017 10:58
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:58</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81359507,32.1706183,29.5231819</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Beni</ns2:name>
+                <ns2:description>
+BBSSID: c4:12:f5:f4:82:42
+Capabilities: [WPA2-PSK-CCMP][ESS][BLE]
+Timestamp: 1513076280000
+Data taken in: 01/12/2017 10:58
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:58</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81359507,32.1706183,29.5231819</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Beni</ns2:name>
+                <ns2:description>
+BBSSID: c4:12:f5:f4:82:42
+Capabilities: [WPA2-PSK-CCMP][ESS][BLE]
+Timestamp: 1513076280000
+Data taken in: 01/12/2017 10:58
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:58</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81363414,32.17081392,29.09810593</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>HOTBOX</ns2:name>
+                <ns2:description>
+BBSSID: c0:ac:54:f7:42:60
+Capabilities: [WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][ESS]
+Timestamp: 1513076280000
+Data taken in: 01/12/2017 10:58
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:58</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81363414,32.17081392,29.09810593</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>HOTBOX111</ns2:name>
+                <ns2:description>
+BBSSID: c0:ac:54:f7:3c:c2
+Capabilities: [WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][ESS]
+Timestamp: 1513076280000
+Data taken in: 01/12/2017 10:58
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:58</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81362986,32.17098715,28.81880765</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>My_Internet</ns2:name>
+                <ns2:description>
+BBSSID: fc:75:16:2e:5a:47
+Capabilities: [WPA-PSK-CCMP+TKIP][ESS]
+Timestamp: 1513076280000
+Data taken in: 01/12/2017 10:58
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:58</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81350325,32.1710679,28.86661464</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>MNP_HOME_2.4GHz_1</ns2:name>
+                <ns2:description>
+BBSSID: 04:a1:51:e0:5f:ee
+Capabilities: [WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS][BLE]
+Timestamp: 1513076280000
+Data taken in: 01/12/2017 10:58
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:58</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81350325,32.1710679,28.86661464</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>test012</ns2:name>
+                <ns2:description>
+BBSSID: 00:12:2a:d2:0c:38
+Capabilities: [WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]
+Timestamp: 1513076280000
+Data taken in: 01/12/2017 10:58
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:58</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81350325,32.1710679,28.86661464</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Yotam _ work _ room</ns2:name>
+                <ns2:description>
+BBSSID: d8:5d:4c:d1:4d:b0
+Capabilities: [WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP-preauth][ESS]
+Timestamp: 1513076280000
+Data taken in: 01/12/2017 10:58
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:58</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81330159,32.17107863,28.91599543</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>tal</ns2:name>
+                <ns2:description>
+BBSSID: 90:8d:78:54:22:a2
+Capabilities: [WPA2-PSK-CCMP][ESS][BLE]
+Timestamp: 1513076280000
+Data taken in: 01/12/2017 10:58
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:58</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81330159,32.17107863,28.91599543</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>sirocco_2.4o</ns2:name>
+                <ns2:description>
+BBSSID: c4:e9:84:83:1a:0a
+Capabilities: [WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][ESS]
+Timestamp: 1513076280000
+Data taken in: 01/12/2017 10:58
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:58</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.8130834,32.17110087,28.87277115</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>tal</ns2:name>
+                <ns2:description>
+BBSSID: 90:8d:78:54:22:a2
+Capabilities: [WPA2-PSK-CCMP][ESS][BLE]
+Timestamp: 1513076280000
+Data taken in: 01/12/2017 10:58
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:58</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.8130834,32.17110087,28.87277115</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>nurit</ns2:name>
+                <ns2:description>
+BBSSID: a0:4f:d4:45:1f:a1
+Capabilities: [WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][ESS][BLE]
+Timestamp: 1513076280000
+Data taken in: 01/12/2017 10:58
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:58</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.8130834,32.17110087,28.87277115</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>44870715</ns2:name>
+                <ns2:description>
+BBSSID: 14:ae:db:b7:ab:ad
+Capabilities: [WPA2-PSK-CCMP][ESS]
+Timestamp: 1513076280000
+Data taken in: 01/12/2017 10:58
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:58</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.8130834,32.17110087,28.87277115</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>tal2</ns2:name>
+                <ns2:description>
+BBSSID: 90:8d:78:54:22:a1
+Capabilities: [WPA2-PSK-CCMP][ESS][BLE]
+Timestamp: 1513076280000
+Data taken in: 01/12/2017 10:58
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:58</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.8130834,32.17110087,28.87277115</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>sirocco_2.4o</ns2:name>
+                <ns2:description>
+BBSSID: 14:cc:20:09:3c:b9
+Capabilities: [WPA2-PSK-CCMP][WPS][ESS]
+Timestamp: 1513076280000
+Data taken in: 01/12/2017 10:58
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:58</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.8130834,32.17110087,28.87277115</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>DIRECT-75-HP DeskJet 4670 series</ns2:name>
+                <ns2:description>
+BBSSID: b0:5a:da:fa:44:76
+Capabilities: [WPA2-PSK-CCMP][WPS][ESS]
+Timestamp: 1513076280000
+Data taken in: 01/12/2017 10:58
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:58</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.8130834,32.17110087,28.87277115</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Partner</ns2:name>
+                <ns2:description>
+BBSSID: 42501_13111_7943940
+Capabilities: UNKNOWN;il
+Timestamp: 1513076280000
+Data taken in: 01/12/2017 10:58
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:58</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81293938,32.17111109,28.89854761</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>DIR-825-4f83</ns2:name>
+                <ns2:description>
+BBSSID: 80:26:89:0d:4f:84
+Capabilities: [WPA2-PSK-CCMP][WPS][ESS]
+Timestamp: 1513076280000
+Data taken in: 01/12/2017 10:58
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:58</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81283802,32.17104345,29.19466822</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Oded 5Ghz</ns2:name>
+                <ns2:description>
+BBSSID: 00:12:2a:e1:6c:4c
+Capabilities: [WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][ESS]
+Timestamp: 1513076280000
+Data taken in: 01/12/2017 10:58
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:58</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81283802,32.17104345,29.19466822</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Oded 2.4Ghz</ns2:name>
+                <ns2:description>
+BBSSID: 00:12:2a:e1:6c:48
+Capabilities: [WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][ESS]
+Timestamp: 1513076280000
+Data taken in: 01/12/2017 10:58
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:58</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81268528,32.17070417,29.69492282</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Oded 5Ghz</ns2:name>
+                <ns2:description>
+BBSSID: 00:12:2a:e1:6c:4c
+Capabilities: [WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][ESS]
+Timestamp: 1513076280000
+Data taken in: 01/12/2017 10:58
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:58</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81268528,32.17070417,29.69492282</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>SIEMENS_LivingRoom</ns2:name>
+                <ns2:description>
+BBSSID: d4:6e:0e:3c:44:e1
+Capabilities: [WPA2-PSK-CCMP+TKIP][WPS][ESS]
+Timestamp: 1513076280000
+Data taken in: 01/12/2017 10:58
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:58</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81261374,32.170286,28.98665425</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>frank</ns2:name>
+                <ns2:description>
+BBSSID: e8:94:f6:e2:6e:4b
+Capabilities: [WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][ESS]
+Timestamp: 1513076280000
+Data taken in: 01/12/2017 10:58
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:58</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81278322,32.17026749,29.01368771</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>TP-LINK_E3CA</ns2:name>
+                <ns2:description>
+BBSSID: 84:16:f9:e4:e3:ca
+Capabilities: [WPA2-PSK-CCMP][WPS][ESS]
+Timestamp: 1513076280000
+Data taken in: 01/12/2017 10:58
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:58</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81278322,32.17026749,29.01368771</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>ter123</ns2:name>
+                <ns2:description>
+BBSSID: 70:4d:7b:0c:89:50
+Capabilities: [WPA-PSK-CCMP][WPA2-PSK-CCMP][WPS][ESS]
+Timestamp: 1513076340000
+Data taken in: 01/12/2017 10:59
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:59</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81353312,32.17024205,29.09677085</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Daizad</ns2:name>
+                <ns2:description>
+BBSSID: e8:cc:18:ac:1b:e1
+Capabilities: [WPA2-PSK-CCMP][ESS]
+Timestamp: 1513076340000
+Data taken in: 01/12/2017 10:59
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:59</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81353312,32.17024205,29.09677085</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Daizad</ns2:name>
+                <ns2:description>
+BBSSID: e8:cc:18:ac:1a:52
+Capabilities: [WPA2-PSK-CCMP][ESS]
+Timestamp: 1513076340000
+Data taken in: 01/12/2017 10:59
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:59</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81358035,32.17030758,29.23477072</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>yotam17</ns2:name>
+                <ns2:description>
+BBSSID: b0:b2:8f:36:a2:b3
+Capabilities: [WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][ESS]
+Timestamp: 1513076340000
+Data taken in: 01/12/2017 10:59
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:59</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81360831,32.17050413,29.49532063</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Beni</ns2:name>
+                <ns2:description>
+BBSSID: c4:12:f5:f4:82:42
+Capabilities: [WPA2-PSK-CCMP][ESS][BLE]
+Timestamp: 1513076340000
+Data taken in: 01/12/2017 10:59
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:59</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81367243,32.17094895,29.87122719</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>HOTBOX</ns2:name>
+                <ns2:description>
+BBSSID: c0:ac:54:f7:42:60
+Capabilities: [WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][ESS]
+Timestamp: 1513076340000
+Data taken in: 01/12/2017 10:59
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:59</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81367243,32.17094895,29.87122719</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Baruch_2.4</ns2:name>
+                <ns2:description>
+BBSSID: 10:5a:f7:08:27:71
+Capabilities: [WPA2-PSK-CCMP][ESS][BLE]
+Timestamp: 1513076340000
+Data taken in: 01/12/2017 10:59
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:59</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81367243,32.17094895,29.87122719</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>yotam17</ns2:name>
+                <ns2:description>
+BBSSID: f8:ab:05:e9:6d:3d
+Capabilities: [WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][ESS]
+Timestamp: 1513076340000
+Data taken in: 01/12/2017 10:59
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:59</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.8133483,32.17112265,32.17112265</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Yotam_Shir</ns2:name>
+                <ns2:description>
+BBSSID: 00:26:5a:24:f4:f0
+Capabilities: [WPS][WEP][ESS][BLE]
+Timestamp: 1513076340000
+Data taken in: 01/12/2017 10:59
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:59</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.8133483,32.17112265,30.37432785</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>claire</ns2:name>
+                <ns2:description>
+BBSSID: cc:b2:55:67:2b:85
+Capabilities: [WPA2-PSK-CCMP][ESS]
+Timestamp: 1513076340000
+Data taken in: 01/12/2017 10:59
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:59</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81275919,32.17092411,29.9988896</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Bezeq Free 672B84</ns2:name>
+                <ns2:description>
+BBSSID: 62:b2:55:67:2b:86
+Capabilities: [ESS]
+Timestamp: 1513076340000
+Data taken in: 01/12/2017 10:59
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:59</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81275919,32.17092411,29.9988896</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>ter123</ns2:name>
+                <ns2:description>
+BBSSID: 70:4d:7b:0c:89:50
+Capabilities: [WPA-PSK-CCMP][WPA2-PSK-CCMP][WPS][ESS]
+Timestamp: 1513076340000
+Data taken in: 01/12/2017 10:59
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:59</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81249259,32.17030296,30.93270635</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>BezeqFree</ns2:name>
+                <ns2:description>
+BBSSID: 5a:ab:1b:62:0d:fd
+Capabilities: [WPA2-PSK-CCMP][ESS][BLE]
+Timestamp: 1513076340000
+Data taken in: 01/12/2017 10:59
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:59</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81239243,32.17009177,30.9611748</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>geller</ns2:name>
+                <ns2:description>
+BBSSID: 00:78:9e:fa:3b:62
+Capabilities: [ESS]
+Timestamp: 1513076340000
+Data taken in: 01/12/2017 10:59
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:59</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81239243,32.17009177,30.9611748</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Partner</ns2:name>
+                <ns2:description>
+BBSSID: 42501_13111_7943940
+Capabilities: UNKNOWN;il
+Timestamp: 1513076340000
+Data taken in: 01/12/2017 10:59
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:59</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81239243,32.17009177,30.9611748</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>DIRECT-1C-HP DeskJet 3830 series</ns2:name>
+                <ns2:description>
+BBSSID: 94:57:a5:4b:4f:41
+Capabilities: [WPA2-PSK-CCMP][WPS][ESS]
+Timestamp: 1513076340000
+Data taken in: 01/12/2017 10:59
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:59</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81219884,32.16964554,30.62408959</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>nina</ns2:name>
+                <ns2:description>
+BBSSID: 20:0c:c8:2b:2a:14
+Capabilities: [WPA2-PSK-CCMP][WPS][ESS]
+Timestamp: 1513076340000
+Data taken in: 01/12/2017 10:59
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:59</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81219884,32.16964554,30.62408959</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>UFI_UF230_B3F</ns2:name>
+                <ns2:description>
+BBSSID: 00:0b:6c:4d:1b:3f
+Capabilities: [WPA-PSK-CCMP][ESS]
+Timestamp: 1513076340000
+Data taken in: 01/12/2017 10:59
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:59</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81210225,32.1694237,30.46032095</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>hot</ns2:name>
+                <ns2:description>
+BBSSID: 00:1c:10:09:4f:bc
+Capabilities: [WPA-PSK-TKIP][WPA2-PSK-TKIP][ESS]
+Timestamp: 1513076340000
+Data taken in: 01/12/2017 10:59
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:59</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81210225,32.1694237,30.46032095</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>klaiman</ns2:name>
+                <ns2:description>
+BBSSID: a0:ab:1b:62:0d:fc
+Capabilities: [WPA2-PSK-CCMP][ESS][BLE]
+Timestamp: 1513076340000
+Data taken in: 01/12/2017 10:59
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:59</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.8119993,32.16921658,30.24608018</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>WR</ns2:name>
+                <ns2:description>
+BBSSID: 00:30:4f:82:7b:30
+Capabilities: [WPA2-PSK-CCMP-preauth][ESS][BLE]
+Timestamp: 1513076340000
+Data taken in: 01/12/2017 10:59
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:59</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.8119993,32.16921658,30.24608018</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>HOTBOX-651B</ns2:name>
+                <ns2:description>
+BBSSID: 54:64:d9:5f:59:83
+Capabilities: [WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][ESS]
+Timestamp: 1513076340000
+Data taken in: 01/12/2017 10:59
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:59</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81191818,32.16902759,29.88889813</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Partner</ns2:name>
+                <ns2:description>
+BBSSID: 42501_13111_7943940
+Capabilities: UNKNOWN;il
+Timestamp: 1513076340000
+Data taken in: 01/12/2017 10:59
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T10:59</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81191818,32.16902759,29.88889813</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>nina</ns2:name>
+                <ns2:description>
+BBSSID: 20:0c:c8:2b:2a:14
+Capabilities: [WPA2-PSK-CCMP][WPS][ESS]
+Timestamp: 1513076400000
+Data taken in: 01/12/2017 11:00
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T11:00</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81220666,32.16956689,29.98470751</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>landau</ns2:name>
+                <ns2:description>
+BBSSID: 74:da:38:14:4b:88
+Capabilities: [WPA2-PSK-CCMP][WPS][ESS]
+Timestamp: 1513076400000
+Data taken in: 01/12/2017 11:00
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T11:00</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81230905,32.169817,29.98143137</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>LRWN</ns2:name>
+                <ns2:description>
+BBSSID: 0c:f4:d5:29:a2:9c
+Capabilities: [WPA2-PSK-CCMP][ESS][BLE]
+Timestamp: 1513076400000
+Data taken in: 01/12/2017 11:00
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T11:00</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81239779,32.17005165,29.97798054</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>HOTBOX-651B</ns2:name>
+                <ns2:description>
+BBSSID: 54:64:d9:5f:59:83
+Capabilities: [WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][ESS]
+Timestamp: 1513076400000
+Data taken in: 01/12/2017 11:00
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T11:00</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81239779,32.17005165,29.97798054</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>klaiman</ns2:name>
+                <ns2:description>
+BBSSID: a0:ab:1b:62:0d:fc
+Capabilities: [WPA2-PSK-CCMP][ESS][BLE]
+Timestamp: 1513076400000
+Data taken in: 01/12/2017 11:00
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T11:00</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81239779,32.17005165,29.97798054</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Partner</ns2:name>
+                <ns2:description>
+BBSSID: 42501_13111_7943940
+Capabilities: UNKNOWN;il
+Timestamp: 1513076400000
+Data taken in: 01/12/2017 11:00
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T11:00</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81239779,32.17005165,29.97798054</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>frank</ns2:name>
+                <ns2:description>
+BBSSID: e8:94:f6:e2:6e:4b
+Capabilities: [WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][ESS]
+Timestamp: 1513076400000
+Data taken in: 01/12/2017 11:00
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T11:00</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.8124557,32.17019625,29.86115092</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>UFI_UF230_B3F</ns2:name>
+                <ns2:description>
+BBSSID: 00:0b:6c:4d:1b:3f
+Capabilities: [WPA-PSK-CCMP][ESS]
+Timestamp: 1513076400000
+Data taken in: 01/12/2017 11:00
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T11:00</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81257716,32.17047604,29.67313485</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>ter123</ns2:name>
+                <ns2:description>
+BBSSID: 70:4d:7b:0c:89:50
+Capabilities: [WPA-PSK-CCMP][WPA2-PSK-CCMP][WPS][ESS]
+Timestamp: 1513076400000
+Data taken in: 01/12/2017 11:00
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T11:00</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81257716,32.17047604,29.67313485</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>hot</ns2:name>
+                <ns2:description>
+BBSSID: 00:1c:10:09:4f:bc
+Capabilities: [WPA-PSK-TKIP][WPA2-PSK-TKIP][ESS]
+Timestamp: 1513076400000
+Data taken in: 01/12/2017 11:00
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T11:00</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81257716,32.17047604,29.67313485</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>TUCHLER</ns2:name>
+                <ns2:description>
+BBSSID: 00:26:5a:69:94:e3
+Capabilities: [WPA2-PSK-CCMP][ESS]
+Timestamp: 1513076400000
+Data taken in: 01/12/2017 11:00
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T11:00</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81268553,32.17065403,29.21502011</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>UFI_UF230_B3F</ns2:name>
+                <ns2:description>
+BBSSID: 00:0b:6c:4d:1b:3f
+Capabilities: [WPA-PSK-CCMP][ESS]
+Timestamp: 1513076400000
+Data taken in: 01/12/2017 11:00
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T11:00</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81268553,32.17065403,29.21502011</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Laufer-wifi</ns2:name>
+                <ns2:description>
+BBSSID: 4c:60:de:51:8b:ca
+Capabilities: [WPA2-PSK-CCMP][WPS][ESS]
+Timestamp: 1513076400000
+Data taken in: 01/12/2017 11:00
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T11:00</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81276766,32.17081209,28.92440372</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>HP-Print-AF-Officejet Pro 6830</ns2:name>
+                <ns2:description>
+BBSSID: 28:80:23:40:5f:af
+Capabilities: [WPA2-PSK-CCMP][ESS]
+Timestamp: 1513076400000
+Data taken in: 01/12/2017 11:00
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T11:00</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.8128203,32.17095456,29.01169705</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Partner</ns2:name>
+                <ns2:description>
+BBSSID: 42501_13111_7943940
+Capabilities: UNKNOWN;il
+Timestamp: 1513076400000
+Data taken in: 01/12/2017 11:00
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T11:00</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.8128728,32.17113625,29.31988022</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Oded 5Ghz</ns2:name>
+                <ns2:description>
+BBSSID: 00:12:2a:e1:6c:4c
+Capabilities: [WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][ESS]
+Timestamp: 1513076400000
+Data taken in: 01/12/2017 11:00
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T11:00</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81296628,32.17178367,29.95561659</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Oded 2.4Ghz</ns2:name>
+                <ns2:description>
+BBSSID: 00:12:2a:e1:6c:48
+Capabilities: [WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][ESS]
+Timestamp: 1513076400000
+Data taken in: 01/12/2017 11:00
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T11:00</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81296628,32.17178367,29.95561659</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>DIR-825-4f83</ns2:name>
+                <ns2:description>
+BBSSID: 80:26:89:0d:4f:84
+Capabilities: [WPA2-PSK-CCMP][WPS][ESS]
+Timestamp: 1513076460000
+Data taken in: 01/12/2017 11:01
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T11:01</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81300884,32.17221892,30.49784498</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Partner</ns2:name>
+                <ns2:description>
+BBSSID: 42501_13111_7943940
+Capabilities: UNKNOWN;il
+Timestamp: 1513076460000
+Data taken in: 01/12/2017 11:01
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T11:01</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81300884,32.17221892,30.49784498</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>DIR-825-4f83</ns2:name>
+                <ns2:description>
+BBSSID: 80:26:89:0d:4f:84
+Capabilities: [WPA2-PSK-CCMP][WPS][ESS]
+Timestamp: 1513076460000
+Data taken in: 01/12/2017 11:01
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T11:01</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81314408,32.17246213,30.73046077</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Bezeq Free GA32E3</ns2:name>
+                <ns2:description>
+BBSSID: 52:b0:ce:ac:32:98
+Capabilities: [ESS][BLE]
+Timestamp: 1513076460000
+Data taken in: 01/12/2017 11:01
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T11:01</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81383248,32.17235934,31.35812287</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Lahav</ns2:name>
+                <ns2:description>
+BBSSID: 08:3e:5d:5c:72:5e
+Capabilities: [WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][ESS]
+Timestamp: 1513076460000
+Data taken in: 01/12/2017 11:01
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T11:01</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81383248,32.17235934,31.35812287</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Partner</ns2:name>
+                <ns2:description>
+BBSSID: 42501_13111_7943940
+Capabilities: UNKNOWN;il
+Timestamp: 1513076460000
+Data taken in: 01/12/2017 11:01
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T11:01</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81407112,32.17232234,31.649353</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>love</ns2:name>
+                <ns2:description>
+BBSSID: 14:ae:db:58:73:75
+Capabilities: [WPA2-PSK-CCMP][ESS]
+Timestamp: 1513076460000
+Data taken in: 01/12/2017 11:01
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>01/12/2017T11:01</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.81426587,32.17229584,32.03668528</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+        </ns2:Folder>
+        <ns2:Folder>
+            <ns2:name>GIS layer num:2</ns2:name>
+            <ns2:styleUrl>green</ns2:styleUrl>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:15:42:68
+Capabilities: [ESS]
+Timestamp: 1513068780000
+Data taken in: 03/12/2017 08:53
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:53</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.21134308,32.10487307,692.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:15:44:58
+Capabilities: [ESS]
+Timestamp: 1513068780000
+Data taken in: 03/12/2017 08:53
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:53</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.21134308,32.10487307,692.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:15:44:58
+Capabilities: [ESS]
+Timestamp: 1513068780000
+Data taken in: 03/12/2017 08:53
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:53</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.21107852,32.1050222,689.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:16:2d:e8
+Capabilities: [ESS]
+Timestamp: 1513068780000
+Data taken in: 03/12/2017 08:53
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:53</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.21107852,32.1050222,689.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:15:25:48
+Capabilities: [ESS]
+Timestamp: 1513068780000
+Data taken in: 03/12/2017 08:53
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:53</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.21092655,32.10503208,687.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:16:05:38
+Capabilities: [ESS]
+Timestamp: 1513068780000
+Data taken in: 03/12/2017 08:53
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:53</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.21060853,32.10495375,686.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:15:ed:48
+Capabilities: [ESS]
+Timestamp: 1513068780000
+Data taken in: 03/12/2017 08:53
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:53</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.21044203,32.10490203,686.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:15:44:88
+Capabilities: [ESS]
+Timestamp: 1513068780000
+Data taken in: 03/12/2017 08:53
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:53</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.21044203,32.10490203,686.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:16:2d:e8
+Capabilities: [ESS]
+Timestamp: 1513068780000
+Data taken in: 03/12/2017 08:53
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:53</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.21044203,32.10490203,686.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>yosh</ns2:name>
+                <ns2:description>
+BBSSID: 00:11:6b:11:7e:0c
+Capabilities: [ESS]
+Timestamp: 1513068780000
+Data taken in: 03/12/2017 08:53
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:53</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.21044203,32.10490203,686.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:16:05:38
+Capabilities: [ESS]
+Timestamp: 1513068780000
+Data taken in: 03/12/2017 08:53
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:53</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.21044203,32.10490203,686.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:15:41:78
+Capabilities: [ESS]
+Timestamp: 1513068780000
+Data taken in: 03/12/2017 08:53
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:53</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.21025994,32.1048406,688.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:14:2b:c8
+Capabilities: [ESS]
+Timestamp: 1513068780000
+Data taken in: 03/12/2017 08:53
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:53</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.21025994,32.1048406,688.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:16:2b:e8
+Capabilities: [ESS]
+Timestamp: 1513068780000
+Data taken in: 03/12/2017 08:53
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:53</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.21025994,32.1048406,688.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:15:42:68
+Capabilities: [ESS]
+Timestamp: 1513068780000
+Data taken in: 03/12/2017 08:53
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:53</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.21025994,32.1048406,688.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>outsense</ns2:name>
+                <ns2:description>
+BBSSID: c2:6c:ac:a0:7b:4d
+Capabilities: [WPA2-PSK-CCMP-preauth][ESS]
+Timestamp: 1513068780000
+Data taken in: 03/12/2017 08:53
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:53</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.21025994,32.1048406,688.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Guest</ns2:name>
+                <ns2:description>
+BBSSID: a2:6c:ac:a0:7b:4d
+Capabilities: [WPA2-PSK-CCMP-preauth][ESS]
+Timestamp: 1513068780000
+Data taken in: 03/12/2017 08:53
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:53</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.21025994,32.1048406,688.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>shapedo</ns2:name>
+                <ns2:description>
+BBSSID: c2:6c:ac:9f:fb:1f
+Capabilities: [WPA2-PSK-CCMP-preauth][ESS]
+Timestamp: 1513068780000
+Data taken in: 03/12/2017 08:53
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:53</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.21025994,32.1048406,688.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>EVE</ns2:name>
+                <ns2:description>
+BBSSID: 90:6c:ac:a0:7b:4d
+Capabilities: [WPA2-PSK-CCMP-preauth][ESS]
+Timestamp: 1513068780000
+Data taken in: 03/12/2017 08:53
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:53</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.21025994,32.1048406,688.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:15:44:58
+Capabilities: [ESS]
+Timestamp: 1513068780000
+Data taken in: 03/12/2017 08:53
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:53</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.21007474,32.10475343,689.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:16:05:78
+Capabilities: [ESS]
+Timestamp: 1513068780000
+Data taken in: 03/12/2017 08:53
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:53</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.21007474,32.10475343,689.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:16:05:38
+Capabilities: [ESS]
+Timestamp: 1513068780000
+Data taken in: 03/12/2017 08:53
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:53</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.21007474,32.10475343,689.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>outsense</ns2:name>
+                <ns2:description>
+BBSSID: c2:6c:ac:a0:7b:4d
+Capabilities: [WPA2-PSK-CCMP-preauth][ESS]
+Timestamp: 1513068780000
+Data taken in: 03/12/2017 08:53
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:53</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.21007474,32.10475343,689.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Guest</ns2:name>
+                <ns2:description>
+BBSSID: a2:6c:ac:a0:7b:4d
+Capabilities: [WPA2-PSK-CCMP-preauth][ESS]
+Timestamp: 1513068780000
+Data taken in: 03/12/2017 08:53
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:53</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.21007474,32.10475343,689.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Afikim_Wifi</ns2:name>
+                <ns2:description>
+BBSSID: 00:1a:dd:f5:df:c5
+Capabilities: [ESS]
+Timestamp: 1513068780000
+Data taken in: 03/12/2017 08:53
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:53</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.21007474,32.10475343,689.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>TP-LINK_ADD150</ns2:name>
+                <ns2:description>
+BBSSID: 74:ea:3a:ad:d1:50
+Capabilities: [WPS][ESS]
+Timestamp: 1513068780000
+Data taken in: 03/12/2017 08:53
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:53</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.21007474,32.10475343,689.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:16:05:78
+Capabilities: [ESS]
+Timestamp: 1513068780000
+Data taken in: 03/12/2017 08:53
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:53</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20990936,32.10466627,687.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:15:25:48
+Capabilities: [ESS]
+Timestamp: 1513068780000
+Data taken in: 03/12/2017 08:53
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:53</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20990936,32.10466627,687.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>outsense</ns2:name>
+                <ns2:description>
+BBSSID: c2:6c:ac:a0:7b:4d
+Capabilities: [WPA2-PSK-CCMP-preauth][ESS]
+Timestamp: 1513068780000
+Data taken in: 03/12/2017 08:53
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:53</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20990936,32.10466627,687.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>EVE</ns2:name>
+                <ns2:description>
+BBSSID: 90:6c:ac:a0:7b:4d
+Capabilities: [WPA2-PSK-CCMP-preauth][ESS]
+Timestamp: 1513068780000
+Data taken in: 03/12/2017 08:53
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:53</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20990936,32.10466627,687.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Guest</ns2:name>
+                <ns2:description>
+BBSSID: 90:6c:ac:a0:60:4d
+Capabilities: [WPA2-PSK-CCMP-preauth][ESS]
+Timestamp: 1513068780000
+Data taken in: 03/12/2017 08:53
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:53</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20990936,32.10466627,687.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>incentive2</ns2:name>
+                <ns2:description>
+BBSSID: a2:6c:ac:a0:60:4d
+Capabilities: [WPA2-PSK-CCMP-preauth][ESS]
+Timestamp: 1513068780000
+Data taken in: 03/12/2017 08:53
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:53</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20990936,32.10466627,687.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>DIRECT-B1-HP DeskJet 3830 series</ns2:name>
+                <ns2:description>
+BBSSID: 70:5a:0f:57:04:17
+Capabilities: [WPA2-PSK-CCMP][WPS][ESS]
+Timestamp: 1513068780000
+Data taken in: 03/12/2017 08:53
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:53</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20990936,32.10466627,687.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name></ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:96:05:37
+Capabilities: [WPA2-PSK-CCMP][ESS]
+Timestamp: 1513068780000
+Data taken in: 03/12/2017 08:53
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:53</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20990936,32.10466627,687.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>TP-LINK_ADD150</ns2:name>
+                <ns2:description>
+BBSSID: 74:ea:3a:ad:d1:50
+Capabilities: [WPS][ESS]
+Timestamp: 1513068780000
+Data taken in: 03/12/2017 08:53
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:53</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20975804,32.10457483,687.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:15:23:58
+Capabilities: [ESS]
+Timestamp: 1513068780000
+Data taken in: 03/12/2017 08:53
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:53</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20975804,32.10457483,687.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>CliClap</ns2:name>
+                <ns2:description>
+BBSSID: 90:6c:ac:9f:f1:c5
+Capabilities: [WPA2-PSK-CCMP-preauth][ESS]
+Timestamp: 1513068780000
+Data taken in: 03/12/2017 08:53
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:53</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20960715,32.10448173,687.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 24:79:2a:2c:5b:d8
+Capabilities: [ESS]
+Timestamp: 1513068780000
+Data taken in: 03/12/2017 08:53
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:53</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20960715,32.10448173,687.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>artsim</ns2:name>
+                <ns2:description>
+BBSSID: a2:6c:ac:a0:18:29
+Capabilities: [WPA2-PSK-CCMP-preauth][ESS]
+Timestamp: 1513068780000
+Data taken in: 03/12/2017 08:53
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:53</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20946023,32.10440239,687.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:16:1d:78
+Capabilities: [ESS]
+Timestamp: 1513068780000
+Data taken in: 03/12/2017 08:53
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:53</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20946023,32.10440239,687.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:16:cc:d8
+Capabilities: [ESS]
+Timestamp: 1513068780000
+Data taken in: 03/12/2017 08:53
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:53</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20946023,32.10440239,687.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:16:2d:e8
+Capabilities: [ESS]
+Timestamp: 1513068780000
+Data taken in: 03/12/2017 08:53
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:53</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20932755,32.10430866,687.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>shapedo</ns2:name>
+                <ns2:description>
+BBSSID: c2:6c:ac:9f:fb:1f
+Capabilities: [WPA2-PSK-CCMP-preauth][ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20917533,32.10419361,685.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:16:cc:d8
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20917533,32.10419361,685.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>paysday</ns2:name>
+                <ns2:description>
+BBSSID: b2:6c:ac:9f:f1:c5
+Capabilities: [WPA2-PSK-CCMP-preauth][ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20917533,32.10419361,685.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: ec:8c:a2:26:d3:68
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20917533,32.10419361,685.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:15:1c:b8
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20917533,32.10419361,685.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: ec:8c:a2:26:b0:e8
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20917533,32.10419361,685.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name></ns2:name>
+                <ns2:description>
+BBSSID: 00:02:6f:8e:64:67
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20917533,32.10419361,685.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:16:05:38
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20902709,32.10406321,685.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>magneto</ns2:name>
+                <ns2:description>
+BBSSID: b2:6c:ac:a0:7b:4d
+Capabilities: [WPA2-PSK-CCMP-preauth][ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20902709,32.10406321,685.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:16:cc:d8
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20902709,32.10406321,685.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>paysday</ns2:name>
+                <ns2:description>
+BBSSID: b2:6c:ac:9f:f1:c5
+Capabilities: [WPA2-PSK-CCMP-preauth][ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20902709,32.10406321,685.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>sinusafe</ns2:name>
+                <ns2:description>
+BBSSID: b2:6c:ac:a0:3d:eb
+Capabilities: [WPA2-PSK-CCMP-preauth][ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20902709,32.10406321,685.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:16:28:e8
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20902709,32.10406321,685.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:15:fd:48
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20902709,32.10406321,685.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 8c:0c:90:2e:16:88
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20902709,32.10406321,685.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:15:23:58
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20892354,32.10391893,686.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:16:1d:7c
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20883622,32.10376365,686.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: ec:8c:a2:08:78:c8
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20883622,32.10376365,686.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: e0:10:7f:1a:bd:98
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20883622,32.10376365,686.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:16:d2:88
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20883622,32.10376365,686.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:16:28:e8
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20878096,32.10359721,686.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: ec:8c:a2:08:78:c8
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20878096,32.10359721,686.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>CliClap</ns2:name>
+                <ns2:description>
+BBSSID: 90:6c:ac:9f:f1:c5
+Capabilities: [WPA2-PSK-CCMP-preauth][ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20875946,32.10346795,686.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:16:d2:88
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20875946,32.10346795,686.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: ec:8c:a2:08:94:18
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20875946,32.10346795,686.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:12:7c:c8
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20875946,32.10346795,686.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:16:1d:78
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20874462,32.10333565,687.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: ec:8c:a2:08:94:18
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20874462,32.10333565,687.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:16:f4:78
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20874462,32.10333565,687.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 34:8f:27:20:8c:18
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20874462,32.10333565,687.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: ec:8c:a2:26:d3:68
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20873143,32.10318952,684.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: ec:8c:a2:26:b0:e8
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20873143,32.10318952,684.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:16:f4:78
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20873143,32.10318952,684.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name></ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:96:d2:87
+Capabilities: [WPA2-PSK-CCMP][ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20873143,32.10318952,684.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:12:90:b8
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20873143,32.10318952,684.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:16:28:f8
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20873143,32.10318952,684.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 8c:0c:90:2d:75:e8
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20873143,32.10318952,684.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:14:2f:68
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20873143,32.10318952,684.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:16:05:38
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20871988,32.10301827,685.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 8c:0c:90:2e:16:88
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20871988,32.10301827,685.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:14:2f:68
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20871988,32.10301827,685.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:14:33:c8
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20871988,32.10301827,685.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:16:f1:98
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20871988,32.10301827,685.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 8c:0c:90:2d:75:e8
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20871899,32.10282362,688.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:14:2f:68
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20871899,32.10282362,688.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:14:33:c8
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20871899,32.10282362,688.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>HelpDesk</ns2:name>
+                <ns2:description>
+BBSSID: f8:d1:11:77:77:c6
+Capabilities: [WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20871899,32.10282362,688.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name></ns2:name>
+                <ns2:description>
+BBSSID: 8c:0c:90:ad:75:e3
+Capabilities: [WPA2-PSK-CCMP][ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20871899,32.10282362,688.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:16:f4:7c
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20871899,32.10282362,688.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: ec:8c:a2:08:78:cc
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20871899,32.10282362,688.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:16:11:ac
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20871899,32.10282362,688.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:16:28:f8
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20876629,32.10263124,687.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Bezeq Free</ns2:name>
+                <ns2:description>
+BBSSID: 62:ab:1b:60:b4:cb
+Capabilities: [WPA2-PSK-CCMP][ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20876629,32.10263124,687.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>36518749</ns2:name>
+                <ns2:description>
+BBSSID: a0:ab:1b:60:b4:ca
+Capabilities: [WPA2-PSK-CCMP][ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20876629,32.10263124,687.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: ec:8c:a2:26:b1:78
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20876629,32.10263124,687.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:16:11:a8
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20876629,32.10263124,687.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:16:ee:98
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20876629,32.10263124,687.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:16:28:e8
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20884914,32.10244119,686.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: ec:8c:a2:08:78:c8
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20884914,32.10244119,686.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:16:d2:88
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20884914,32.10244119,686.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:12:7c:c8
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20884914,32.10244119,686.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:16:f1:98
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20884914,32.10244119,686.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:14:33:cc
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20884914,32.10244119,686.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: ec:8c:a2:08:94:18
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20894955,32.1022576,688.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 34:8f:27:20:8c:18
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20894955,32.1022576,688.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:14:2f:68
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20894955,32.1022576,688.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Bezeq Free</ns2:name>
+                <ns2:description>
+BBSSID: 62:ab:1b:60:b4:cb
+Capabilities: [WPA2-PSK-CCMP][ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20894955,32.1022576,688.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:14:2b:dc
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20894955,32.1022576,688.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:14:2b:d8
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20894955,32.1022576,688.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:16:f4:78
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20912829,32.10212198,688.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:12:90:b8
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20912829,32.10212198,688.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:16:f1:98
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20912829,32.10212198,688.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>lab_6.1.3</ns2:name>
+                <ns2:description>
+BBSSID: c4:12:f5:f6:a0:18
+Capabilities: [WPA2-PSK-CCMP][ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20912829,32.10212198,688.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: ec:8c:a2:08:94:1c
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20935702,32.1020322,689.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:15:1e:68
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20935702,32.1020322,689.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:15:3a:38
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20960153,32.10196459,690.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:16:28:f8
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.2098381,32.10199722,693.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:14:33:c8
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>34.8133483,32.17112265,30.37432785</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>HelpDesk</ns2:name>
+                <ns2:description>
+BBSSID: f8:d1:11:77:77:c6
+Capabilities: [WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.2098381,32.10199722,693.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>36518749</ns2:name>
+                <ns2:description>
+BBSSID: a0:ab:1b:60:b4:ca
+Capabilities: [WPA2-PSK-CCMP][ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.2098381,32.10199722,693.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: ec:8c:a2:26:b1:78
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.2098381,32.10199722,693.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:16:11:a8
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.2098381,32.10199722,693.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>yosh</ns2:name>
+                <ns2:description>
+BBSSID: 00:11:6b:11:02:b7
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.2098381,32.10199722,693.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:14:2f:68
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20998301,32.10212708,692.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Bezeq Free</ns2:name>
+                <ns2:description>
+BBSSID: 62:ab:1b:60:b4:cb
+Capabilities: [WPA2-PSK-CCMP][ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20998301,32.10212708,692.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:14:2b:dc
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20998301,32.10212708,692.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:14:2b:d8
+Capabilities: [ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20998301,32.10212708,692.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>KCG-ADSL</ns2:name>
+                <ns2:description>
+BBSSID: 00:1d:aa:81:d8:3c
+Capabilities: [WPA2-PSK-CCMP][WPS][ESS]
+Timestamp: 1513068840000
+Data taken in: 03/12/2017 08:54
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:54</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.21003281,32.10226153,694.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>KCG-ADSL</ns2:name>
+                <ns2:description>
+BBSSID: 00:1d:aa:81:d8:3c
+Capabilities: [WPA2-PSK-CCMP][WPS][ESS]
+Timestamp: 1513068900000
+Data taken in: 03/12/2017 08:55
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:55</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20983303,32.10290524,694.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:12:af:78
+Capabilities: [ESS]
+Timestamp: 1513068900000
+Data taken in: 03/12/2017 08:55
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:55</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20983303,32.10290524,694.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:14:2b:88
+Capabilities: [ESS]
+Timestamp: 1513068900000
+Data taken in: 03/12/2017 08:55
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:55</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20983303,32.10290524,694.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:14:30:38
+Capabilities: [ESS]
+Timestamp: 1513068900000
+Data taken in: 03/12/2017 08:55
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:55</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20983303,32.10290524,694.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:16:11:a8
+Capabilities: [ESS]
+Timestamp: 1513068900000
+Data taken in: 03/12/2017 08:55
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:55</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20978446,32.10305306,693.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:15:1e:68
+Capabilities: [ESS]
+Timestamp: 1513068900000
+Data taken in: 03/12/2017 08:55
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:55</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20978446,32.10305306,693.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:15:3a:38
+Capabilities: [ESS]
+Timestamp: 1513068900000
+Data taken in: 03/12/2017 08:55
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:55</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20978446,32.10305306,693.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>2.4V1</ns2:name>
+                <ns2:description>
+BBSSID: 40:a5:ef:7a:17:f2
+Capabilities: [WPA2-PSK-CCMP][WPS][ESS]
+Timestamp: 1513068900000
+Data taken in: 03/12/2017 08:55
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:55</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20978446,32.10305306,693.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:15:ec:38
+Capabilities: [ESS]
+Timestamp: 1513068900000
+Data taken in: 03/12/2017 08:55
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:55</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20978446,32.10305306,693.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:16:06:bc
+Capabilities: [ESS]
+Timestamp: 1513068900000
+Data taken in: 03/12/2017 08:55
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:55</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20978446,32.10305306,693.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:16:ee:98
+Capabilities: [ESS]
+Timestamp: 1513068900000
+Data taken in: 03/12/2017 08:55
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:55</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20978446,32.10305306,693.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>lab_6.1.3</ns2:name>
+                <ns2:description>
+BBSSID: c4:12:f5:f6:a0:18
+Capabilities: [WPA2-PSK-CCMP][ESS]
+Timestamp: 1513068900000
+Data taken in: 03/12/2017 08:55
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:55</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20977295,32.10314139,693.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:16:ed:38
+Capabilities: [ESS]
+Timestamp: 1513068900000
+Data taken in: 03/12/2017 08:55
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:55</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20979335,32.10330416,695.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:16:06:b8
+Capabilities: [ESS]
+Timestamp: 1513068900000
+Data taken in: 03/12/2017 08:55
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:55</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20979335,32.10330416,695.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:16:ed:48
+Capabilities: [ESS]
+Timestamp: 1513068900000
+Data taken in: 03/12/2017 08:55
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:55</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20979335,32.10330416,695.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:12:90:b8
+Capabilities: [ESS]
+Timestamp: 1513068900000
+Data taken in: 03/12/2017 08:55
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:55</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20979335,32.10330416,695.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>AUC_4_2_24</ns2:name>
+                <ns2:description>
+BBSSID: d8:5d:4c:9e:69:22
+Capabilities: [ESS]
+Timestamp: 1513068900000
+Data taken in: 03/12/2017 08:55
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:55</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20992695,32.10357832,694.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:15:fd:48
+Capabilities: [ESS]
+Timestamp: 1513068900000
+Data taken in: 03/12/2017 08:55
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:55</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.20992695,32.10357832,694.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:16:06:bc
+Capabilities: [ESS]
+Timestamp: 1513068900000
+Data taken in: 03/12/2017 08:55
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:55</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.21019984,32.10379261,694.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:16:06:b8
+Capabilities: [ESS]
+Timestamp: 1513068900000
+Data taken in: 03/12/2017 08:55
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:55</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.21019984,32.10379261,694.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:15:1c:b8
+Capabilities: [ESS]
+Timestamp: 1513068900000
+Data taken in: 03/12/2017 08:55
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:55</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.21019984,32.10379261,694.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 24:79:2a:2c:5c:18
+Capabilities: [ESS]
+Timestamp: 1513068900000
+Data taken in: 03/12/2017 08:55
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:55</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.21019984,32.10379261,694.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 24:79:2a:2b:bd:88
+Capabilities: [ESS]
+Timestamp: 1513068900000
+Data taken in: 03/12/2017 08:55
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:55</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.21019984,32.10379261,694.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 24:79:2a:2b:07:b8
+Capabilities: [ESS]
+Timestamp: 1513068900000
+Data taken in: 03/12/2017 08:55
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:55</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.21019984,32.10379261,694.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>KCG-ADSL</ns2:name>
+                <ns2:description>
+BBSSID: 00:1d:aa:81:d8:3c
+Capabilities: [WPA2-PSK-CCMP][WPS][ESS]
+Timestamp: 1513068900000
+Data taken in: 03/12/2017 08:55
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:55</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.21040928,32.10392655,695.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:12:af:78
+Capabilities: [ESS]
+Timestamp: 1513068900000
+Data taken in: 03/12/2017 08:55
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:55</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.21040928,32.10392655,695.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:14:2b:88
+Capabilities: [ESS]
+Timestamp: 1513068900000
+Data taken in: 03/12/2017 08:55
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:55</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.21040928,32.10392655,695.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:14:30:38
+Capabilities: [ESS]
+Timestamp: 1513068900000
+Data taken in: 03/12/2017 08:55
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:55</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.21040928,32.10392655,695.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 24:79:2a:2c:5b:d8
+Capabilities: [ESS]
+Timestamp: 1513068900000
+Data taken in: 03/12/2017 08:55
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:55</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.21064312,32.10403138,697.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:16:ed:38
+Capabilities: [ESS]
+Timestamp: 1513068900000
+Data taken in: 03/12/2017 08:55
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:55</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.21091349,32.10412387,700.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:16:ed:48
+Capabilities: [ESS]
+Timestamp: 1513068900000
+Data taken in: 03/12/2017 08:55
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:55</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.21091349,32.10412387,700.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:12:90:b8
+Capabilities: [ESS]
+Timestamp: 1513068900000
+Data taken in: 03/12/2017 08:55
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:55</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.21091349,32.10412387,700.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 8c:0c:90:2f:d3:d8
+Capabilities: [ESS]
+Timestamp: 1513068900000
+Data taken in: 03/12/2017 08:55
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:55</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.21091349,32.10412387,700.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>AUC_4_2_24</ns2:name>
+                <ns2:description>
+BBSSID: d8:5d:4c:9e:69:22
+Capabilities: [ESS]
+Timestamp: 1513068900000
+Data taken in: 03/12/2017 08:55
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:55</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.21101715,32.10415215,700.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:15:fd:48
+Capabilities: [ESS]
+Timestamp: 1513068900000
+Data taken in: 03/12/2017 08:55
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:55</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.21101715,32.10415215,700.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:15:41:78
+Capabilities: [ESS]
+Timestamp: 1513068900000
+Data taken in: 03/12/2017 08:55
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:55</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.21118813,32.10418089,699.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:16:06:bc
+Capabilities: [ESS]
+Timestamp: 1513068900000
+Data taken in: 03/12/2017 08:55
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:55</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.21138319,32.10423611,700.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:16:06:b8
+Capabilities: [ESS]
+Timestamp: 1513068900000
+Data taken in: 03/12/2017 08:55
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:55</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.21138319,32.10423611,700.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:15:1c:b8
+Capabilities: [ESS]
+Timestamp: 1513068900000
+Data taken in: 03/12/2017 08:55
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:55</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.21138319,32.10423611,700.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 24:79:2a:2c:5c:18
+Capabilities: [ESS]
+Timestamp: 1513068900000
+Data taken in: 03/12/2017 08:55
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:55</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.21138319,32.10423611,700.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 24:79:2a:2b:bd:88
+Capabilities: [ESS]
+Timestamp: 1513068900000
+Data taken in: 03/12/2017 08:55
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:55</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.21138319,32.10423611,700.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 24:79:2a:2b:07:b8
+Capabilities: [ESS]
+Timestamp: 1513068900000
+Data taken in: 03/12/2017 08:55
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:55</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.21138319,32.10423611,700.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name></ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:95:41:77
+Capabilities: [WPA2-PSK-CCMP][ESS]
+Timestamp: 1513068900000
+Data taken in: 03/12/2017 08:55
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:55</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.21138319,32.10423611,700.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:15:44:88
+Capabilities: [ESS]
+Timestamp: 1513068900000
+Data taken in: 03/12/2017 08:55
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:55</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.21150642,32.10434812,698.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:15:ed:48
+Capabilities: [ESS]
+Timestamp: 1513068900000
+Data taken in: 03/12/2017 08:55
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:55</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.21150642,32.10434812,698.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>yosh</ns2:name>
+                <ns2:description>
+BBSSID: 00:11:6b:11:7e:0c
+Capabilities: [ESS]
+Timestamp: 1513068900000
+Data taken in: 03/12/2017 08:55
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:55</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.21150642,32.10434812,698.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:15:ed:48
+Capabilities: [ESS]
+Timestamp: 1513068900000
+Data taken in: 03/12/2017 08:55
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:55</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.21158147,32.10450422,698.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>IT-MNG</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:16:cd:18
+Capabilities: [WPA2-PSK-CCMP+TKIP][ESS]
+Timestamp: 1513068960000
+Data taken in: 03/12/2017 08:56
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:56</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.2115156,32.10476714,696.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:56:cd:18
+Capabilities: [ESS]
+Timestamp: 1513068960000
+Data taken in: 03/12/2017 08:56
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:56</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.2115156,32.10476714,696.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>IT-MNG</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:15:fd:e8
+Capabilities: [WPA2-PSK-CCMP+TKIP][ESS]
+Timestamp: 1513068960000
+Data taken in: 03/12/2017 08:56
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:56</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.2114539,32.10481492,695.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:14:2b:c8
+Capabilities: [ESS]
+Timestamp: 1513068960000
+Data taken in: 03/12/2017 08:56
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:56</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.2114539,32.10481492,695.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:15:44:58
+Capabilities: [ESS]
+Timestamp: 1513068960000
+Data taken in: 03/12/2017 08:56
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:56</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.21137457,32.10487501,697.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:14:2b:c8
+Capabilities: [ESS]
+Timestamp: 1513068960000
+Data taken in: 03/12/2017 08:56
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:56</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.21135337,32.10488619,698.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:16:2b:e8
+Capabilities: [ESS]
+Timestamp: 1513068960000
+Data taken in: 03/12/2017 08:56
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:56</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.21135337,32.10488619,698.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+            <ns2:Placemark>
+                <ns2:name>Ariel_University</ns2:name>
+                <ns2:description>
+BBSSID: 1c:b9:c4:16:05:78
+Capabilities: [ESS]
+Timestamp: 1513068960000
+Data taken in: 03/12/2017 08:56
+</ns2:description>
+                <ns2:TimeStamp>
+                    <ns2:when>03/12/2017T08:56</ns2:when>
+                </ns2:TimeStamp>
+                <ns2:Point>
+                    <ns2:coordinates>35.21135337,32.10488619,698.0</ns2:coordinates>
+                </ns2:Point>
+            </ns2:Placemark>
+        </ns2:Folder>
+    </ns2:Document>
+</ns2:kml>

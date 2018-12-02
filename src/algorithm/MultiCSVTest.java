@@ -18,9 +18,9 @@ import GIS.GisProject;
 class MultiCSVTest {
 	// this is the paths we about to use in the tests
 	private static final String inputPath = "C:" + File.separator + "Users" + File.separator + "evgen" + File.separator
-			+ "eclipse-workspace" + File.separator + "OopAssignment2-4" + File.separator + "csvFilesTest";
+			+ "eclipse-workspace" + File.separator + "Assignment2" + File.separator + "csvFilesTest";
 	final String outputPathKML = "C:" + File.separator + "Users" + File.separator + "evgen" + File.separator
-			+ "eclipse-workspace" + File.separator + "OopAssignment2-4" + File.separator + "kmlFilesOutPut";
+			+ "eclipse-workspace" + File.separator + "Assignment2" + File.separator + "kmlFilesOutPut";
 
 	@Test
 	void testReadFolder() {
@@ -59,7 +59,7 @@ class MultiCSVTest {
 		// creating a GIS project as we tested earlier
 		GisProject testProject = MultiCSV.readFolder(inputPath);
 		// converting the project to a file in the output path
-		MultiCSV.folder2Kml(testProject,outputPathKML + File.separator + "kmlTESTER.kml");
+		MultiCSV.folder2Kml(testProject, outputPathKML + File.separator + "kmlTESTER.kml");
 		// reading the file, this way we know it is indeed was created
 		BufferedReader br = null;
 		FileReader fr = null;
@@ -69,7 +69,6 @@ class MultiCSVTest {
 			br = new BufferedReader(fr);
 			String sCurrentLine = "";
 			while ((sCurrentLine = br.readLine()) != null) {
-				System.out.println(sCurrentLine);
 			}
 		} catch (IOException e) {
 			// if there was an ERROR in reading the file => the file wasn't created
