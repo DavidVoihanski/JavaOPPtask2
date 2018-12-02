@@ -35,11 +35,11 @@ As for converting CSV type files to KML, you can use the class &quot;EntryPoint&
 
 This project contains five packages, we believe the best method of describing it will be covering the packages:
 
-**1)****&quot;Coords&quot; ****-** this package contains the interface &quot;cords\_converter&quot; which was given as instructions to fulfill, the class &quot;MyCoords&quot; implements this interface and represents all the calculations you can perform on GPS Coordinates in this project, &quot;GpsCoord &quot;is a class which represents a GPS coordinate (implementing the interface &quot;geom\_element&quot; found in the geom package), using Point3D as an internal point and contains all the methods which you can find in &quot;MyCoords&quot; and more.
+**1)***Coords ****-** this package contains the interface &quot;cords\_converter&quot; which was given as instructions to fulfill, the class &quot;MyCoords&quot; implements this interface and represents all the calculations you can perform on GPS Coordinates in this project, &quot;GpsCoord &quot;is a class which represents a GPS coordinate (implementing the interface &quot;geom\_element&quot; found in the geom package), using Point3D as an internal point and contains all the methods which you can find in &quot;MyCoords&quot; and more.
 
-**2)****&quot;File\_Format&quot; ****-** this package contains the class &quot;Csv2Kml&quot;, which is an abstract class containing only static methods as it has no data members, used to convert one single GIS layer to a KML file.
+**2)***File\_Format ****-** this package contains the class &quot;Csv2Kml&quot;, which is an abstract class containing only static methods as it has no data members, used to convert one single GIS layer to a KML file.
 
-**3)  ****&quot;GIS&quot; ****-** this package represents **G** eographic **I** nformation **S** ystem, which contains interfaces which used as instructions to fulfill: GIS\_element, GIS\_layer, GIS\_project and Meta\_data.
+**3)  ****GIS****-** this package represents **G** eographic **I** nformation **S** ystem, which contains interfaces which used as instructions to fulfill: GIS\_element, GIS\_layer, GIS\_project and Meta\_data.
 
 These interfaces are implemented in the classes:
 
@@ -51,9 +51,9 @@ These interfaces are implemented in the classes:
 
 \* LayerMetaData/ProjectMetaData/MetaData- are classes which represent the meta data of a GIS project/layer/element, as their features are somewhat different, we created a meta data class for any GIS class.
 
-**4)****&quot;Geom&quot; ****-** which represents a geometric element, contains the interface &quot;geom\_element&quot;, which is implemented by &quot;Point3D&quot; and &quot;GpsCoord&quot; classes.
+**4)***Geom****-** which represents a geometric element, contains the interface &quot;geom\_element&quot;, which is implemented by &quot;Point3D&quot; and &quot;GpsCoord&quot; classes.
 
-**5)****&quot;Algorithm&quot; ****-** which represents the algorithm used to read multiply CSV files to convert to a single, folder separated KML file, this package contains the class &quot;MultiCSV&quot; which is an abstract class which extends the &quot;&quot;Csv2Kml&quot; class, as the &quot;MultiCSV&quot; class **is a** kind of &quot;Csv2Kml&quot; class.
+**5)***Algorithm****-** which represents the algorithm used to read multiply CSV files to convert to a single, folder separated KML file, this package contains the class &quot;MultiCSV&quot; which is an abstract class which extends the &quot;&quot;Csv2Kml&quot; class, as the &quot;MultiCSV&quot; class **is a** kind of &quot;Csv2Kml&quot; class.
 
   **Credits:**
 
