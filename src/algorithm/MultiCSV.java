@@ -7,6 +7,7 @@ import java.util.Iterator;
 
 import File_format.Csv2Kml;
 import GIS.GIS_layer;
+import GIS.GIS_project;
 import GIS.GisLayer;
 import GIS.GisProject;
 import de.micromata.opengis.kml.v_2_2_0.Document;
@@ -37,6 +38,12 @@ public abstract class MultiCSV extends Csv2Kml {
 		Filter filter = new Filter();
 		File folder = new File(inputDirectory);
 		File pathNames[] = folder.listFiles(filter);
+		for (int i = 0; i < pathNames.length; i++) {
+			if(pathNames[i].isDirectory()) {
+				GisProject directoryWithinDirectory=readFolder(pathNames[i].getPath());
+				layers.addAll(directoryWithinDirectory);
+			}
+		}
 		int index = 0;
 		int size = pathNames.length;
 		scan(index, size, layers, pathNames);
@@ -49,7 +56,7 @@ public abstract class MultiCSV extends Csv2Kml {
 	 * @param layers     Input array list of GIS_layers
 	 * @param outputPath wanted path to save the KML file at
 	 */
-	public static void folder2Kml(ArrayList<GIS_layer> layers, String outputPath) {
+	public static void folder2Kml(GIS_project layers, String outputPath) {
 		Kml kml = new Kml();
 		Document doc = kml.createAndSetDocument();
 		Iterator<GIS_layer> it = layers.iterator();

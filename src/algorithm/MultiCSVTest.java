@@ -59,7 +59,7 @@ class MultiCSVTest {
 		// creating a GIS project as we tested earlier
 		GisProject testProject = MultiCSV.readFolder(inputPath);
 		// converting the project to a file in the output path
-		MultiCSV.folder2Kml(testProject.getArray(),outputPathKML + File.separator + "kmlTESTER.kml");
+		MultiCSV.folder2Kml(testProject,outputPathKML + File.separator + "kmlTESTER.kml");
 		// reading the file, this way we know it is indeed was created
 		BufferedReader br = null;
 		FileReader fr = null;
@@ -76,7 +76,5 @@ class MultiCSVTest {
 			// correctly
 			fail("the file wasnt created - folder 2 kml");
 		}
-
 	}
-
 }

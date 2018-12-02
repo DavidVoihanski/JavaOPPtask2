@@ -137,9 +137,9 @@ public class GisProject implements GIS_project {
 	public Meta_data get_Meta_data() {
 		return this.data;
 	}
-	public ArrayList<GIS_layer> getArray(){
-		return this.layers;
-	}
+//	public ArrayList<GIS_layer> getArray(){
+//		return this.layers;
+//	}
 	//private supporting method
 	private boolean isEqual(GisElement arg1, GisElement arg2) throws InvalidPropertiesFormatException {
 		GpsCoord arg1Location = new GpsCoord(arg1.getGeom());

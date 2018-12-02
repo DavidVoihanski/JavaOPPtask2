@@ -78,10 +78,4 @@ class GisProjectTest {
 		if(project.get_Meta_data()==null)fail("Get meta data failed!");
 	}
 
-	@Test
-	void testGetArray() {
-		GisProject project=new GisProject();
-		if(project.getArray()==null)fail("GetArray failed!");
-	}
-
 }

@@ -20,7 +20,7 @@ public class EntryPoint {
 		GisProject contents = MultiCSV.readFolder(inputCsvFolderPath);
 		// writing a KML output file to the output folder with chosen file name
 		String chooseKmlFileName = "kmlTEST";
-		MultiCSV.folder2Kml(contents.getArray(), pathKML + File.separator + chooseKmlFileName + ".kml");
+		MultiCSV.folder2Kml(contents, pathKML + File.separator + chooseKmlFileName + ".kml");
 	}
 
 }
