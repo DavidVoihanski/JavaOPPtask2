@@ -61,7 +61,7 @@ public class GisLayer implements GIS_layer {
 		while (it.hasNext()) {// for all the elements of this collection, we'll try to add it with the add
 								// basic method
 			GIS_element current = it.next();
-			if (!this.set.add((GisElement) current)) {// in case there is one or more elements that are already in the
+			if (!this.add((GisElement) current)) {// in case there is one or more elements that are already in the
 														// set, we'll return false (but keep trying to add later
 														// elements)
 				output = false;
@@ -156,7 +156,7 @@ public class GisLayer implements GIS_layer {
 	 */
 	@Override
 	public boolean retainAll(Collection<?> c) {
-		return this.retainAll(c);
+		return this.set.retainAll(c);
 	}
 
 	/**
