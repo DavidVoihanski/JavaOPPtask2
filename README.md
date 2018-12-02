@@ -1,4 +1,5 @@
 Second assignment in object oriented programming course, Ariel uni.
+
 What is it:
 This repository contains the second assignment in Ariel university's object oriented programming course.
 As for right now, this project is a foundation to the rest of the continuous course assignment.
@@ -13,9 +14,6 @@ As for calculations preformed on GPS coordinates, you can use the MyCoords class
 NOTICE: it's impossible to create a GpsCoord instance which values doesn't represent a valid GPS coordinate, the constructor will throw an exception.
 As for converting CSV type files to KML, you can use the class "EntryPoint" which is found in the default package, this class contains only a main method which is the entry point for this project, all you have to do, is use the String variable inputCsvFolderPath as a path to the wanted folder in which the CSV files are stored, then, use the outputPathForKML String variable as the path for the output KML file (please notice that if you will convert bunch of CSV files to KML, the output will be just one KML file separated by folders inside it), you can choose to rename the output KML using chooseKmlFileName or you can just keep the default name – "kmlTEST".
  
-
-
-
 
 How this works:
 This project contains five packages, we believe the best method of describing it will be covering the packages:
