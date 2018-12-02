@@ -78,7 +78,10 @@ public class MetaData implements Meta_data {
 		String splitBy = " ";
 		String[] timeAndDate = timeData.split(splitBy);
 		int[] outPut = new int[5];
-		splitBy = "/";
+		if (timeAndDate[0].contains("-"))
+			splitBy = "-";
+		else
+			splitBy = "/";
 		String[] date = timeAndDate[0].split(splitBy);
 		splitBy = ":";
 		String[] time = timeAndDate[1].split(splitBy);
