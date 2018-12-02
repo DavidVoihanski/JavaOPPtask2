@@ -5,7 +5,7 @@ import Geom.Point3D;
 /**
  * this class is the implementation of coords_converter interface
  * 
- * @author Evgeny
+ * @author Evgeny&David
  *
  */
 public class MyCoords implements coords_converter {

@@ -5,10 +5,11 @@ import java.util.InvalidPropertiesFormatException;
 import Geom.Geom_element;
 import Geom.Point3D;
 
+/**
+ * this class represents a GPS coordinate
+ * @author Evgeny&David
+ */
 public class GpsCoord implements Geom_element {
-	/**
-	 * this class represents a GPS coordinate
-	 */
 	// MyCoords instance used to "get" the methods from the MyCoords class
 	private MyCoords convertMethods;
 	// Point3D instance that represents the internal coordinates of the GPS

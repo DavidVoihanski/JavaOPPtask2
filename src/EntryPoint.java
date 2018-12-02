@@ -3,11 +3,11 @@ import java.io.File;
 import GIS.GisProject;
 import algorithm.MultiCSV;
 
+/**
+ * this is the entry point to the project, you can use all the methods from here
+ * @author Evgeny&David
+ */
 public class EntryPoint {
-	/**
-	 * this is the entry point to the project, you can use all the methods from here
-	 * 
-	 */
 	public static void main(String[] args) {
 //the path to the folder in which we save the KML output
 		final String pathKML = "C:" + File.separator + "Users" + File.separator + "evgen" + File.separator

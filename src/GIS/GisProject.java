@@ -6,7 +6,11 @@ import java.util.InvalidPropertiesFormatException;
 import java.util.Iterator;
 
 import Coords.GpsCoord;
-
+/**
+ * this class represents a GIS Project, a set of GIS layers
+ * @author Evgeny&David
+ *
+ */
 public class GisProject implements GIS_project {
 	private ArrayList<GIS_layer>layers;
 	private Meta_data data;
@@ -75,9 +79,6 @@ public class GisProject implements GIS_project {
 		}
 		return flag;
 	}
-	/**
-	 * Resets this collection
-	 */
 	@Override
 	public void clear() {
 		layers=new ArrayList<GIS_layer>();
@@ -137,9 +138,7 @@ public class GisProject implements GIS_project {
 	public Meta_data get_Meta_data() {
 		return this.data;
 	}
-//	public ArrayList<GIS_layer> getArray(){
-//		return this.layers;
-//	}
+
 	//private supporting method
 	private boolean isEqual(GisElement arg1, GisElement arg2) throws InvalidPropertiesFormatException {
 		GpsCoord arg1Location = new GpsCoord(arg1.getGeom());

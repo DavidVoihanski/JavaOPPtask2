@@ -4,7 +4,7 @@ import java.util.Date;
 
 import Geom.Point3D;
 /**
- * 	Metadata for GIS_project
+ * 	Metadata class for GIS_project
  * @author David&Evegeny
  *
  */
